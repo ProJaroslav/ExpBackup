@@ -1,0 +1,35 @@
+{
+    "name": "LocateCoordinate",
+    "label": "Jdi na souřadnici",
+    "type": "widget",
+    "widgetType": "NORMAL",
+    "version": "1.15.0",
+    "exbVersion": "1.15.0",
+    "author": "Matěj Kutík",
+    "description": "Přesun v mapě na zadanou souřadnici.",
+    "copyright": "HSI, s.r.o.",
+    "publishMessages": [],
+    "messageActions": [],
+    "extensions": [{
+        "name": "Notification store",
+        "point": "REDUX_STORE",
+        "uri": "extensions/reduxStores/notification-store"
+    },
+    {
+        "name": "First render handler store",
+        "point": "REDUX_STORE",
+        "uri": "extensions/reduxStores/first-render-handler-store"
+    }, {
+        "name": "Globbal Settings",
+        "point": "CONTEXT_TOOL",
+        "uri": "extensions/reduxStores/globalSettings"
+    }],
+    "defaultSize": {
+        "width": 410,
+        "height": 480
+    },
+    "dataActions": [],
+    "translatedLocales": [
+        "cs"
+    ]
+}

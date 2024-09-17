@@ -1,0 +1,496 @@
+{
+  "sublayers": [
+    { "layerId": 4, "mapName": "Map", "mapServiceName": "LK/LK" },
+    {
+      "layerId": 27,
+      "mapName": "Map",
+      "mapServiceName": "LK/LK",
+      "sizeRenderer": { "type": "scale-ratio", "originScale": 500 },
+      "autoRotate": true
+    },
+    {
+      "layerId": 79,
+      "mapName": "Map",
+      "mapServiceName": "LK/LK",
+      "autoRotate": true
+    },
+    {
+      "layerId": 72,
+      "mapName": "Map",
+      "mapServiceName": "LK/LK",
+      "autoRotate": false,
+      "symbolOverrides": {
+        "type": "simple",
+        "properties": {
+          "symbol": {
+            "type": "picture-marker",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAOUlEQVQImWNhSF2zmYGR0ZgBG/j//ywLAxOjJMN/BkmsCpgYJVmwSiABFoZ//58zMDI+xyr77/9zAAgBDNZF4to5AAAAAElFTkSuQmCC",
+            "width": 12,
+            "height": 6,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        }
+      }
+    },
+    { "layerId": 4, "mapName": "LitePlus", "mapServiceName": "LK/LitePlus" },
+    {
+      "layerId": 60,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 61,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 62,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 69,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": true
+    },
+    {
+      "layerId": 70,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 72,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 71,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 79,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": true,
+      "symbolOverrides": {
+        "type": "unique-value-info",
+        "uniqueValueInfos": [
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAcCAYAAACDBoQZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAp0lEQVRIie3TPQ4BQRiA4Wfip3AAlUKhUKolbqC3RxCXkFC4h4pGolOo3MEFROEIql2Fyi5BTKHYN5lqZp58U0xVxKr/j60YopKw/fTykmadccLsAQu0si8nrdFAvzBZjEqsxN5hGR301pzzhzIWGfNAmttqY1DAAruUy7NfEOgGrnks5YRpARuxd1+FVhwTNq8fmMNiVGIl9gsWmETDRhyiYZ8WFbsBDbMbFtZnMUEAAAAASUVORK5CYII=",
+              "width": 14,
+              "height": 21,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 8.5039370078740149
+            },
+            "value": "1",
+            "label": "Zásuvka datová jednoduchá"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAeCAYAAAAo5+5WAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA8ElEQVRIie3UvUrDUBiA4SckVcF2EITi1N3J0XvQyaE0OnsBjg7eRid3fzavwMHBxdFr6KD4g2DFiIlLEdo0aJQglbzrRx4+ODknUlHR7MLnRANaOzz8BDqlifcuL2PwLcshmziEIzZCLrvcT4POaA1Zi7mAjPWUR1yNwZMFrGCuaP7MfEjHCJ5shg+vhgvhjE7K9gk3BfOljIXScMxBuR2/Cf+2T/iVoEFzdDVzvdFoECCZNs9ohjzl4EWShHZKr2CD1ZQ97BYs2Q64zsFb3GG/4CNwzLA3eku+6h/9xzVcw38MZ/QrgWMGlcBlqgz+ALgfLoQyUu+5AAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 8.5039370078740149
+            },
+            "value": "2",
+            "label": "Zásuvka datová dvojitá"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVklEQVQ4jb3UTYiVVRgH8N955+VmjRCIaCQ4aURGUIlFiFRobhTUlXccv/qAUkNcOAs3ibeNH4vCjcVYUCqO750GK9JBpDAo0EULLaNFVAoaihY4ouSM95wW75XG5jIaRM/2vOfH8/wfzpv7jyv/X8FEKJiV8URiUuIGzrRxvMqFuwYHuOcq6/voDkxInMS5jPbEU5HJBV9h+zKOjgnup2OQQ3g4UMv4IDIx0tHGjQo/DDMD3YniMzqWcLUluJdJOccTMePpyLOJE3gkKyMwRMQxvB1ZNxIbBVbYnBifeCGyFYvRn6gFfkrcbOa5CgNt1PDWWCMvDfRgNhYnurqof85913kRDwa+7WR+wZrEe3V+7KRvFNjLREzGscSbgd4u6nXmXKMfD1DOW/BRJ68WzMK2Gv218uhvMDIuQ+ByYHrg3ebRvbiUWJj4LeMdvFxnIPA+XnuUOfj6NnAKFy4SU9nlH81udfJF4slQ7kSNVY/xfGTeMFsqyMqt3w7O5WbBr3imOfbrfeys0riFNcFY0Mi4lDdjwFDLpQQ+SVQzlkRWR/b0saFadkyZ30ZMDRwM5aIkvmkJNtiX0R1ZgGpiX+RiwenElcBUTAtsGuKXnMM4uoyfW4LL+e4APYHtibWJx7EuMD8wAaewdojvc44E8sQbI41RT6/BppyZgQ8Dn2bsxI6l/PkxDyVW5PQGBhvMWz6iu5bgSgZ7eO5+XsFLkS8R6mXw43A+sKudHYu4/s/7Lf82axjGbuzeS3uFaag0+H0FZ1vdGRMcWau5htN3+u6uwX9bfwHFK8Fatz8bnwAAAABJRU5ErkJggg==",
+              "width": 15,
+              "height": 15,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 10.123734533183352
+            },
+            "value": "3",
+            "label": "Rezerva"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABXElEQVQ4jbXUwUpUURwH4O/YLWnhQgLX9RRCD+CEm0BtZgRxG1Sar9DaRWZu2urAvSMqlI40bnoLV76A7lIQUnBaOBcud+6dO4T9HuA7/3PO75zIAyf6r+AvokuevuZqVGCbqWUuCsFzdvBil1qd31VYwkd82uVlndMBsMd+IL6jW4XGrGIj8ANnhRMushejCk1YwRccBt7UuSkER0Fj3mMTR2MsZLFCcBia8A5bfWw+j5WCRWjMHtYDnVCCDQVzaBKYxnFgrgyrBN1jUxiDHpPjjPtXsH8BW4FOj1Zg+5rud2pl5S8FEz7ga6AzwfwsfxJuAu1rui1eLXE5Etjv2WYWgyYHCY1A+xE/i9ABsP+cNvJYmiYHbZpIovtJa1k0ymFr+FyGpWmwH7MYiCNOWsykaH7C51VYmkyl1p/wTBHYZO0bjxvcDsOy6DGH2cUHzvDtiFia/E4e/Mf+C3bWguncxNtoAAAAAElFTkSuQmCC",
+              "width": 15,
+              "height": 15,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 4.0818897637795271
+            },
+            "value": "4",
+            "label": "Rezerva neověřená"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAbCAYAAAB1NA+iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABEklEQVQ4jWNhoBCwDB4D1jEwCP9kYPAlpIGRgeFNBAPDFgwDGMXFGwxLS3PYRUTgin9//szAws3NwMjEBBd7fejQrxXz5gXDDEHxgoiVFYOwpSWcfzwykkHc2ZlBMTERLvbj5UvsXkAHb44cYXi0YgXDq337GGTDwhhY+fiwqsNqwP9//xjO5eVBbHz1iuFaSwuDflcX8QbcnzuX4f3583D+rYkTGZTT0hh4VFSIM0A6MJBBwtOT4fm2bQyiNjYMLHx8DGwCAsS7ABYTbEJCDJxSUgysODTjNIAUMGrAqAFDwAAOcXEGJjY2Ig34/fvAyfh4H4JWMjO/ZWBguIVhQOC7d2sZ3r1bS9AAnC4gE1BsAAB2N0MA8Z8/LgAAAABJRU5ErkJggg==",
+              "width": 12,
+              "height": 20,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "5",
+            "label": "spojka"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABc0lEQVRIie3Wv0uUcRwH8Nc9XtwNIRHh6UmTjoJEW0uCuyA49D8UDeocNAgutgWBINKPqSkicDGkpVEQHM2husfDFsGhoHu+Dqdwp+Jdj8+DSr6Xh+fD5/m84Pnx4Sm6oBT/b3iHkYT5nKyvVeZOhQN3Al+qvEgzucYQHlR501qvU0p411o7casjkgJ/08AxLwMju7zvY/+ovk2xdKw3s2dcYzIwDg1m8Pys/kzgbcpYODoPzNZ5VaGeK1zmERqBTUTobfAYz3KFB1jGcsxYoFxlpdM1l+M7voavDJywFdGTGRwzFbFeYeusvkG+dzOvaxg3G9zodmiWcOa5httS437CrX5e/2T4B+OB3bts5ArjXsRirLn5ITAhb3iApZgnGD0sfRrk43nRjnCBZIfphFX87uFpFmhHGPr5XONDoblAvuUGJzyMT/a9RSVmNg0STnHaCiXW/7T8whzLrzQoFJqHtnejDb7NHtbSAv+Sy7lA8swBSA9TG1lUWqEAAAAASUVORK5CYII=",
+              "width": 22,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 8.5039370078740149
+            },
+            "value": "6",
+            "label": "LAN opakovač jednoduchý"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACBklEQVRIie3Vv0tVYRzH8dc5XrwNLkVJ90RzDZGBQdRQS5BQ0ZBj/QvREBgpNEhiSE5R0RRBc4MF1hBihRCZUdQU6ZDnmEIQQaBc72nwSke7ml6vFeRnOryf5/m+nx+H58n5S8n93+IJ9pToXifXUMSViuKUrSmDEb0rLFZKOFfgehbGHEiZ2sFH+Ey+xL1sn1+2OqQUUFyJNaEVvZ94spM3Gd6TkgSchlFy+UVjqz7jlLqETgTh3BaeLEuPpxyEmOaI4UrjqxZPcBa7IeDEOIcihpLMOZr7bqmZ+B31KZezLKAr5lZAUwYfizk8zYuaiBvJz3AGSkyGNELITEpLkbd5ZmfZh6lKNaoSb+MbnkNCd4GL2fZxjs6Si+iHUTbVRFyLbIhXnZSHi1nIh5CwavEEjSmtBW5kecx53I74HvF08bgCY7+b8LLikLBIfYWmhtxvVrQm8XpmQwxi9qOnSDHlS8wpjARzV+IujBW5E1OHzohXNREXGE7YjKbgJ76KBrRlur4v8Hq10iXFAekEHSX6yuhZRH9KkMy9r81l3hFQqpkYtvMgYaj8qLfPTyjmEh7hZcT9aqTListpR1vE4DyIeBwzkNJVrbSiuMSRZCG6m3BhUbebAXuThY/+kkkreBaAPCPTXMuy8s8VV6g3uRJppkZfli0Qb+ErBlZacC35ty6QP5EfSA6JVVl5i9EAAAAASUVORK5CYII=",
+              "width": 18,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 3.4015748031496065
+            },
+            "value": "7",
+            "label": "LAN opakovač dvojitý"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 83,
+      "mapName": "LetGIS_Podlazi_Tech",
+      "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 60,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 61,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 62,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": false,
+      "symbolOverrides": {
+        "type": "simple",
+        "properties": {
+          "symbol": {
+            "type": "picture-marker",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC00lEQVRIib3WT0iTYQDH8e/7bq1pynBlbdoMbRlEUThiQURJTBpoUFAiHYJgC/HYsUPGDkqReNR5VQYKodmtmYIerOFhkljgBAWXuVYrrbbZ3reD23C++6NQ/U7vC8/z+7zP+1/NP476vwKDYJGgHTAClr0UyfBRgBkZ7rdAUAEMgiUBo8JWeTqqoiI0ej3IMr+CQXIlOa9RgBUPVKaQNCBB+87yc8+eYW5tZaGnh5Xh4bzADqwXaMoASJULAkdv3qT67l0qmpoAKDIY+DY3t6vyZBpTG9sBC8B5txtkmQ9dXRgaGtj8/p0P3d2caGvj/ZMnJKLRvUCZF9lot7NPp2P11Svqx8cB2F9eju3NG97eu7fncgVw7M4d5js6OGKzKQZq9PqsBYIoIkvS7gCt0UjE78fQ0FD40AQB3enTCKJIxO8HtlYbC4VyA5tfv+Y9mu0543Kx2NfHxefPeX3lCr/X17k4NMT41avIiUR2QFCpdlW+T6fj5IMHlNbWUlxVRb3Xi8/hoPzyZapaWljq788ORFdXOVBdXXAVldevo9JqMd26BcD+Q4fSN4Xx2rXcQNjn43B9fUFAU1aGnEikV7yxsECJ2YwUjysexgxgbWyMs0+fEp6ezguoS0tZ9niovHEDKRrl3aNHXBgYYG1iAlGjQdRoIB5XAj+WltAaDCDLeYHjTicIAuHpaWKhEKbmZiKzsxy0Wimrq2PO5YJwWAkAfPH50FZU5AXGLl3C5vNx0GolNDmJFIshqtUgy3itVuLJ8qzAysgIpx4+zAv8XF4m+OIFUjzOJ6+XeCSC0W6n2GRiY3ExY2waSL7PjZ+npiipqckLAPgcjoz9teRdlOpSAAKMAk5ZklibmKDEbC6I5EqyKxOQ4bEAToD5zk6CL19mTNrD63pGBLcCaIGgByoF6F0PBCwbgYAx+/zsSZ7iURHct2FGAaQQkl+iv5V//lfxB8ihBDOzL7sGAAAAAElFTkSuQmCC",
+            "width": 18,
+            "height": 18,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        }
+      }
+    },
+    {
+      "layerId": 69,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": true,
+      "symbolOverrides": {
+        "type": "unique-value-info",
+        "field": "C_TYP",
+        "uniqueValueInfos": [
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAeCAYAAADHJYVoAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACIElEQVRIieXWP0iUYRwH8M+dFlqBVLc4KVTQDRV4roYNlUESnkkQNdSiNengFEgtLQ05OGRQCEEhwUHU0BJULoF/Rg8kDqUwREHvBhPOPw2nYXZ33Z0XBH2n931e+LzP7/c878Nb6S+m8v/AI5HInvHx8XTZ8ebm5spUKvUCl8uOp1Kp64FAoL2xsfHS2NjYq7LhHR0dFYlE4g5sbGz0oXx4IpG4hiObtw0NDQ2tExMTr3eNb5/1VoLBYB92j09OTnaurKwcs7QEVgMB6b17G+vr67ump6cflYqHD9FTNTV1s21tzdX1dbCAeTwMBgcWOZukc3O4YLyplVgvoaZ09m0dXV+viBG9TWSOC4gXgodP8ayXUFOesiCKMHUX+ZggvLOC3/CDdPdR9yf450wwRKiVwSTt+fDoGa5EC4S30oRztLzMXI5kxQ9Qe56aIm1wj31vuPI9F15NS6HtyJbDHP267f4XvIpIuEQ4jDTHt4/9gq8yu0BtqAR8AdUkc+IrjMeJlNKaOJJ8yokvMjMis+TF5h3Li8zkxHF/gGhbkb2P40lmlzzOh/tGzy3evmdfIfACnjLzNQPn/0IxMsqDdroHqcm3uHEMsDzEEGI7n2c9uJa5G+PdKMNd1LbJbLXt6AfSz/k8Qr8d7ciLb1XwhZN3ON3PjSAn6tk/S3qV2SRvlhmW5TQsBCfTw9j8ZslzhOQ4u0vBs72s4Pw7f1zF5gf1LKKr/4cKAAAAAABJRU5ErkJggg==",
+              "width": 17,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "12",
+            "label": "požární"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAeCAYAAAA2Lt7lAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACc0lEQVRIieXVsWsTURzA8e9Lrou4HARKOx4KXc0FrtIIhYyatkNbWukileQPkCgoFAURtH9ASbTUqYZQMFods7XQQF7mc7lBMFlOA60WQZPncAkkbe+aaDr5g3BccrzP+/3e/X7RuODQ/i8gGo3eqFare4AaOjA9Pa0dHR29Nk3znpSyOHTg8PBwRQhhAGvAcIGFhYWw4ziP2rfXYrHYTKVSeT80wHGcFeBK514ptQYMB+jsXlz+hRg9Rn0fgR8jpmmaN6WUH/8JmHrD+OdPpada/OdVMXrc85s61t5ev8RWSPFkf5nawICVJ9WErJj4RqQB8RJMSXB1+KrDXvT3iG2QagpSVoFYeRHZN2DlSQnITjiwugPx6ulnVnfANiCTAVenYuVJl5fInQtYBUzR8hZfX4dIwy9HmHBg6yHceQauTtYqIE9mcgoQLR53dhi0eCciDQ9JboBokQVivsDkNkng1lzp7LIEIXMlKCYwrQJmdxY9gAoxJoDZUv+Ld2J1B4oJEE2S4AMISEYaXm0HjUjD+7g6Zvf3J89grJ+6ByGuzlgQULeNvwdsAwQBb5GAmsJrpkEzcXXvqhR1X6AVIidapDbn4cHLwYB3iTYQZtcXKC8iJ/PIYgJzttT/YdsGvJoH4MO5jRZWzDQFXzIZr4HOK5VtwOZ8e/chr0kDgf1lalaetKuTTW7A+gv/prMNeH7XuypInzXwzhx25SVyVgFJk93Mfe/VjVdPTtP2woq6aJEu3+6tfSAA3nkA41aelKuTKiYwi4meR6QAqcLkDnxGdSDQnQ14Y3hym6TSqGlN6kF/MgMB3XHgU4ahAX8TFw78AWeh6cKYdfRYAAAAAElFTkSuQmCC",
+              "width": 18,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "20",
+            "label": "automatické/požární"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAeCAYAAAA2Lt7lAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACBklEQVRIieWVP2vbQBjGf6LSHogXZyqlxWSMT1soeOlQ2sSTt0wJyB8gkCUQWujSfAMb0vYbtK5bOmXz6POuRVvtoZcQbDCBBK7DnVzVSPKfKlMfEGfZ4vm9z+ne1y4PLPf/AlSr1eeDwaAH6MIBtVrNnUwmn4QQx1LKL4UDxuPxgeM4T4AzoFhAo9F4FEXRqb3d8X1/v9/vfy0MEEXRAfA0vtdanwHFAOLqS3d3bE+nKM/jl+cJIcQrKeX3fwJo2Ppxefnu8e3ts+3p9K/fblz38wZ8BN46MFwZoCEAWi+vr4ES8ALYBRRwxcZ9z4MwAAINvgNyaUBsDhXgyBrP6xAIgRNA9TU0HWgvBGgQf8zPbfVZqgAXtgjV0iDnk6QleGOWowXmsUoWUscUhp8J0LAHvDYPp21LHqQOdIQGkUwxn6BslvoK5rEOgQ6YIjMBe6aayhqAkr2USH6bkmBzDfNYm4Aq5wFG5uitqxAWnCLbkYrlTlBSKv4wygO0gQA+YBpoFc1mXzcT4IDUIKEjzEla9mWHmF7g2zKNtg/8NAkuWLxVM3OYNWkOwIGhhiaolklxTnbThcB7u9JMG3ipw86BttkqunBSNil2SU5T6MXGI2veTfPKHNe2mi0zWVVg3ksn+Yi0VztrVOcCkmmwY9jOqiEwyvuTWQkwB0vdhsIA6+jBAb8BO3ab7nuaK8wAAAAASUVORK5CYII=",
+              "width": 18,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "15",
+            "label": "požární roleta"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAeCAYAAAA2Lt7lAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACaElEQVRIieWVMU/bQBiGH6uJsJRIdKgaOQNUtI3EEqmcGRpRiaVDVYjEwJbZ+QEdK0Ei9UcQL+3QHYSpOhQ2RAdihoxIzRAJW1Yr1ICJXDFcB2w1DXFIaJj6TT7f+X2+77671wnuOBL/F2Bubu7F0dHRPiDHDlhcXEycn59/EEK8sW17a+yAs7OzkqIoM8AaMF7A6urqvWaz+TYcPtN1vViv17fHBmg2myXgSTSWUq4B4wFE2T+4vGS20+FHMsn3ZFIIIV7btv3pnwASsp/39t49CoKns53OX3M/E4nN+/AeqCrgjAyQYAC1V6enuGkVMz/FzuMMmv+L7EXA0jcvKby2ARgSdAXsoQGRuJ2ZpFrIYc1krq2pPM8hvDbW1iGaH9QllBUwbwRIEJF4cWUeJ6XGFYmdmUQvLVD/uI/mBzUJdm8l/SqoAFQLuYHiUTgpFb20wMnGLkAN0GMBEpaBJTM/1XdbBkHM/BRGoyUkiO4qeivQAMz89NDiUVQLOYxGC66SjAUsu2kVOzM5MsBJqbhpFc0PRPf7axU4qYmRxf9AJtD8QBsEcIXXvjUg/HbgKXIAshfBUCeoO7IXQfToDgKYgLF+cEz5ZX4kQNhgACsWoIAtwTYaLWHmp4dutvDarB8cA+wMc9GKwIm1dYheWrhxq4TXpvL1OBpWeuevARRwJJQ1P6idbOxSXJmPvXTCa1P70oiaW+5neH3NTgFTXi22tjcPNTetYs087HXTSNgNxa1+WrF2HWaTlWBofmAYjZboaiRczduAGWfVAwHd1RDacOhVDuAO+smMBOiB9d2GsQFuE3cO+A0SEOk01ixP8QAAAABJRU5ErkJggg==",
+              "width": 18,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "16",
+            "label": "bezpečnostní roleta"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAeCAYAAAA2Lt7lAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACJklEQVRIieWVv47aQBCHPxT8AttxZeQ8QDDQIdG5SLiOwtIVVFBcR8rAKRGuXSJBk3SUiUJSuKBLB+YJVu4C3RQgISQKUmAnHAc+uHBVfpXX3p1v/nhm0zyz0v8XIJvNFieTyU9gc3FAqVRKLxaLz5ZlvQuC4OvFAfP5/CaVSr0E7oDLAiqVyoswDN9Hy9e5XO56PB5/uxggDMMbwIzXm83mDrgMIPZ+vV6zXC4xDAPDMCzLst4EQfDjXwFXw+HQXa1Wr5bL5f2D6fQX4BPwEZg+BVADuiKCUopisUihUEBEEBFGo5Ghta5F+3JAcA6gBnRN08RxHPL5/IMNjuOgtcZ1XURkDNSB3ikAKzbebDZRSh0N0TRNPM+j0WggIt0oinuRHAJ8iD1MMh5LKYXneVSrVYAu23QdBZSBt7ZtH0xLEsS2bXzft9hm4E8U+4AMgG3bJxuP5TgOvu/HTh4FlJVSmKbJuVJKoZRCRKzd9w8iOCXvSRARySQBZlrrJwOis4l/0RQgbq5zJCLx4ywJ0ANq/X6f29vbswBRgQEGSYAACHzft2zbPrnYWmv6/T7Ad05otGvgl+u6eJ73aKp2jEPUpI8BpkBdRLrVapVWq3W06bTWdDqduLj1fe+PAWBbiwAYtNvtjFKKfD6/P01jw7PI+OCQoaRxHQBXQE1Ear7vWzuFjL8HO84c1ClXZo+/Y7jMNoUzEi6ZcwG7OpiGSwLO1rMDfgN8/tulrviEjQAAAABJRU5ErkJggg==",
+              "width": 18,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "1",
+            "label": "ostatní"
+          }
+        ]
+      }
+    },
+    {
+      "layerId": 70,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 72,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": false,
+      "symbolOverrides": {
+        "type": "simple",
+        "properties": {
+          "symbol": {
+            "type": "picture-marker",
+            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAOUlEQVQImWNhSF2zmYGR0ZgBG/j//ywLAxOjJMN/BkmsCpgYJVmwSiABFoZ//58zMDI+xyr77/9zAAgBDNZF4to5AAAAAElFTkSuQmCC",
+            "width": 18,
+            "height": 9,
+            "angle": 0,
+            "xoffset": 0,
+            "yoffset": 0
+          }
+        }
+      }
+    },
+    {
+      "layerId": 71,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": false
+    },
+    {
+      "layerId": 79,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "autoRotate": true,
+      "symbolOverrides": {
+        "type": "unique-value-info",
+        "uniqueValueInfos": [
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAcCAYAAACDBoQZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAp0lEQVRIie3TPQ4BQRiA4Wfip3AAlUKhUKolbqC3RxCXkFC4h4pGolOo3MEFROEIql2Fyi5BTKHYN5lqZp58U0xVxKr/j60YopKw/fTykmadccLsAQu0si8nrdFAvzBZjEqsxN5hGR301pzzhzIWGfNAmttqY1DAAruUy7NfEOgGrnks5YRpARuxd1+FVhwTNq8fmMNiVGIl9gsWmETDRhyiYZ8WFbsBDbMbFtZnMUEAAAAASUVORK5CYII=",
+              "width": 14,
+              "height": 21,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 8.5039370078740149
+            },
+            "value": "1",
+            "label": "Zásuvka datová jednoduchá"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAeCAYAAAAo5+5WAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA8ElEQVRIie3UvUrDUBiA4SckVcF2EITi1N3J0XvQyaE0OnsBjg7eRid3fzavwMHBxdFr6KD4g2DFiIlLEdo0aJQglbzrRx4+ODknUlHR7MLnRANaOzz8BDqlifcuL2PwLcshmziEIzZCLrvcT4POaA1Zi7mAjPWUR1yNwZMFrGCuaP7MfEjHCJ5shg+vhgvhjE7K9gk3BfOljIXScMxBuR2/Cf+2T/iVoEFzdDVzvdFoECCZNs9ohjzl4EWShHZKr2CD1ZQ97BYs2Q64zsFb3GG/4CNwzLA3eku+6h/9xzVcw38MZ/QrgWMGlcBlqgz+ALgfLoQyUu+5AAAAAElFTkSuQmCC",
+              "width": 16,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 8.5039370078740149
+            },
+            "value": "2",
+            "label": "Zásuvka datová dvojitá"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVklEQVQ4jb3UTYiVVRgH8N955+VmjRCIaCQ4aURGUIlFiFRobhTUlXccv/qAUkNcOAs3ibeNH4vCjcVYUCqO750GK9JBpDAo0EULLaNFVAoaihY4ouSM95wW75XG5jIaRM/2vOfH8/wfzpv7jyv/X8FEKJiV8URiUuIGzrRxvMqFuwYHuOcq6/voDkxInMS5jPbEU5HJBV9h+zKOjgnup2OQQ3g4UMv4IDIx0tHGjQo/DDMD3YniMzqWcLUluJdJOccTMePpyLOJE3gkKyMwRMQxvB1ZNxIbBVbYnBifeCGyFYvRn6gFfkrcbOa5CgNt1PDWWCMvDfRgNhYnurqof85913kRDwa+7WR+wZrEe3V+7KRvFNjLREzGscSbgd4u6nXmXKMfD1DOW/BRJ68WzMK2Gv218uhvMDIuQ+ByYHrg3ebRvbiUWJj4LeMdvFxnIPA+XnuUOfj6NnAKFy4SU9nlH81udfJF4slQ7kSNVY/xfGTeMFsqyMqt3w7O5WbBr3imOfbrfeys0riFNcFY0Mi4lDdjwFDLpQQ+SVQzlkRWR/b0saFadkyZ30ZMDRwM5aIkvmkJNtiX0R1ZgGpiX+RiwenElcBUTAtsGuKXnMM4uoyfW4LL+e4APYHtibWJx7EuMD8wAaewdojvc44E8sQbI41RT6/BppyZgQ8Dn2bsxI6l/PkxDyVW5PQGBhvMWz6iu5bgSgZ7eO5+XsFLkS8R6mXw43A+sKudHYu4/s/7Lf82axjGbuzeS3uFaag0+H0FZ1vdGRMcWau5htN3+u6uwX9bfwHFK8Fatz8bnwAAAABJRU5ErkJggg==",
+              "width": 15,
+              "height": 15,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 10.123734533183352
+            },
+            "value": "3",
+            "label": "Rezerva"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABXElEQVQ4jbXUwUpUURwH4O/YLWnhQgLX9RRCD+CEm0BtZgRxG1Sar9DaRWZu2urAvSMqlI40bnoLV76A7lIQUnBaOBcud+6dO4T9HuA7/3PO75zIAyf6r+AvokuevuZqVGCbqWUuCsFzdvBil1qd31VYwkd82uVlndMBsMd+IL6jW4XGrGIj8ANnhRMushejCk1YwRccBt7UuSkER0Fj3mMTR2MsZLFCcBia8A5bfWw+j5WCRWjMHtYDnVCCDQVzaBKYxnFgrgyrBN1jUxiDHpPjjPtXsH8BW4FOj1Zg+5rud2pl5S8FEz7ga6AzwfwsfxJuAu1rui1eLXE5Etjv2WYWgyYHCY1A+xE/i9ABsP+cNvJYmiYHbZpIovtJa1k0ymFr+FyGpWmwH7MYiCNOWsykaH7C51VYmkyl1p/wTBHYZO0bjxvcDsOy6DGH2cUHzvDtiFia/E4e/Mf+C3bWguncxNtoAAAAAElFTkSuQmCC",
+              "width": 15,
+              "height": 15,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 4.0818897637795271
+            },
+            "value": "4",
+            "label": "Rezerva neověřená"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAbCAYAAAB1NA+iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABEklEQVQ4jWNhoBCwDB4D1jEwCP9kYPAlpIGRgeFNBAPDFgwDGMXFGwxLS3PYRUTgin9//szAws3NwMjEBBd7fejQrxXz5gXDDEHxgoiVFYOwpSWcfzwykkHc2ZlBMTERLvbj5UvsXkAHb44cYXi0YgXDq337GGTDwhhY+fiwqsNqwP9//xjO5eVBbHz1iuFaSwuDflcX8QbcnzuX4f3583D+rYkTGZTT0hh4VFSIM0A6MJBBwtOT4fm2bQyiNjYMLHx8DGwCAsS7ABYTbEJCDJxSUgysODTjNIAUMGrAqAFDwAAOcXEGJjY2Ig34/fvAyfh4H4JWMjO/ZWBguIVhQOC7d2sZ3r1bS9AAnC4gE1BsAAB2N0MA8Z8/LgAAAABJRU5ErkJggg==",
+              "width": 12,
+              "height": 20,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "value": "5",
+            "label": "spojka"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABc0lEQVRIie3Wv0uUcRwH8Nc9XtwNIRHh6UmTjoJEW0uCuyA49D8UDeocNAgutgWBINKPqSkicDGkpVEQHM2husfDFsGhoHu+Dqdwp+Jdj8+DSr6Xh+fD5/m84Pnx4Sm6oBT/b3iHkYT5nKyvVeZOhQN3Al+qvEgzucYQHlR501qvU0p411o7casjkgJ/08AxLwMju7zvY/+ovk2xdKw3s2dcYzIwDg1m8Pys/kzgbcpYODoPzNZ5VaGeK1zmERqBTUTobfAYz3KFB1jGcsxYoFxlpdM1l+M7voavDJywFdGTGRwzFbFeYeusvkG+dzOvaxg3G9zodmiWcOa5httS437CrX5e/2T4B+OB3bts5ArjXsRirLn5ITAhb3iApZgnGD0sfRrk43nRjnCBZIfphFX87uFpFmhHGPr5XONDoblAvuUGJzyMT/a9RSVmNg0STnHaCiXW/7T8whzLrzQoFJqHtnejDb7NHtbSAv+Sy7lA8swBSA9TG1lUWqEAAAAASUVORK5CYII=",
+              "width": 22,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 8.5039370078740149
+            },
+            "value": "6",
+            "label": "LAN opakovač jednoduchý"
+          },
+          {
+            "symbol": {
+              "type": "picture-marker",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACBklEQVRIie3Vv0tVYRzH8dc5XrwNLkVJ90RzDZGBQdRQS5BQ0ZBj/QvREBgpNEhiSE5R0RRBc4MF1hBihRCZUdQU6ZDnmEIQQaBc72nwSke7ml6vFeRnOryf5/m+nx+H58n5S8n93+IJ9pToXifXUMSViuKUrSmDEb0rLFZKOFfgehbGHEiZ2sFH+Ey+xL1sn1+2OqQUUFyJNaEVvZ94spM3Gd6TkgSchlFy+UVjqz7jlLqETgTh3BaeLEuPpxyEmOaI4UrjqxZPcBa7IeDEOIcihpLMOZr7bqmZ+B31KZezLKAr5lZAUwYfizk8zYuaiBvJz3AGSkyGNELITEpLkbd5ZmfZh6lKNaoSb+MbnkNCd4GL2fZxjs6Si+iHUTbVRFyLbIhXnZSHi1nIh5CwavEEjSmtBW5kecx53I74HvF08bgCY7+b8LLikLBIfYWmhtxvVrQm8XpmQwxi9qOnSDHlS8wpjARzV+IujBW5E1OHzohXNREXGE7YjKbgJ76KBrRlur4v8Hq10iXFAekEHSX6yuhZRH9KkMy9r81l3hFQqpkYtvMgYaj8qLfPTyjmEh7hZcT9aqTListpR1vE4DyIeBwzkNJVrbSiuMSRZCG6m3BhUbebAXuThY/+kkkreBaAPCPTXMuy8s8VV6g3uRJppkZfli0Qb+ErBlZacC35ty6QP5EfSA6JVVl5i9EAAAAASUVORK5CYII=",
+              "width": 22,
+              "height": 22,
+              "angle": 0,
+              "xoffset": 0,
+              "yoffset": 3.4015748031496065
+            },
+            "value": "7",
+            "label": "LAN opakovač dvojitý"
+          }
+        ]
+      }
+    }
+  ],
+  "tables": [
+    { "layerId": 1023, "mapName": "Map", "mapServiceName": "LK/LK" },
+    { "layerId": 1024, "mapName": "Map", "mapServiceName": "LK/LK" },
+    {
+      "layerId": 1023,
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa"
+    },
+    {
+      "layerId": 1024,
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa"
+    },
+    {
+      "layerId": 1025,
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa"
+    },
+    {
+      "layerId": 1026,
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa"
+    },
+    {
+      "layerId": 1027,
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa"
+    },
+    {
+      "layerId": 1028,
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa"
+    },
+    {
+      "layerId": 1023,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech"
+    },
+    {
+      "layerId": 1024,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech"
+    },
+    {
+      "layerId": 1025,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech"
+    },
+    {
+      "layerId": 1026,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech"
+    },
+    {
+      "layerId": 1027,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech"
+    },
+    {
+      "layerId": 1028,
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+.widget-land-report {
+    >.card-footer {
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .select-query-wrapper {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+
+        > label {
+            grid-column: 1;
+            margin: 0px;
+
+            &.required {
+                font-weight: bold;
+            }
+        }
+
+    }
+
+    .download-report {
+        > hr {
+            margin-block-start: 1rem;
+            margin-block-end: 1em;
+        }
+
+        > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            > img {
+                max-width: 40%;
+            }
+
+            .open-file-button {
+                margin-bottom: 1rem;
+                display: block;
+            }
+        }
+
+    }
+}

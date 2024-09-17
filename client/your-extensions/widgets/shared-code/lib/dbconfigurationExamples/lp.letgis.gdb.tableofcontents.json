@@ -1,0 +1,3542 @@
+{
+  "LK": {
+    "dataValidity": {
+      "layerRightsTables": [
+        {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 1021,
+          "userAttribute": "OWNER",
+          "layerIdAttribute": "ID_LAYER",
+          "veraficationDateAttribute": "DATUM_VERIFIKACE"
+        }
+      ],
+      "layerVerificationTables": [
+        {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 1022,
+          "noteAttribute": "POZNAMKA",
+          "layersRightsOidAttribute": "X_LAYERS_ADMINISTRATORS_OID "
+        }
+      ]
+    },
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "LetGISTech_DatZ",
+          "mapServiceName": "LK/LetGISTech_DatZ",
+          "layerId": 79
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 2000
+        },
+        "expandedByDefault": true,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 72
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 69
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "url": "https://services.cuzk.cz/wms/wms.asp"
+            }
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 4
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 3
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 40
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "title": "Místnosti"
+            },
+            "virtual": true,
+            "expandedByDefault": true,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Map",
+                  "mapServiceName": "LK/LK",
+                  "layerId": 18
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Map",
+                  "mapServiceName": "LK/LK",
+                  "layerId": 2
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 6
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 2001
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 13
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 14
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 15
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 16
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 2002
+        },
+        "expandedByDefault": true,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 1
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 12
+            },
+            "selectableByDefault": true,
+            "expandedByDefault": true,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Map",
+                  "mapServiceName": "LK/LK",
+                  "layerId": 11
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Map",
+                  "mapServiceName": "LK/LK",
+                  "layerId": 19
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 5
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 10
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 22
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 23
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 7
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 21
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 20
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 9
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 8
+            },
+            "selectableByDefault": true
+          }
+        ]
+      }
+    ]
+  },
+  "LetGISTechVC": {
+    "dataValidity": {
+      "layerRightsTables": [
+        {
+          "mapName": "LetGIS_Mapa",
+          "mapServiceName": "LK/LetGIS_Mapa",
+          "layerId": 1021,
+          "userAttribute": "OWNER",
+          "layerIdAttribute": "ID_LAYER",
+          "veraficationDateAttribute": "DATUM_VERIFIKACE"
+        }
+      ],
+      "layerVerificationTables": [
+        {
+          "mapName": "LetGIS_Mapa",
+          "mapServiceName": "LK/LetGIS_Mapa",
+          "layerId": 1022,
+          "noteAttribute": "POZNAMKA",
+          "layersRightsOidAttribute": "X_LAYERS_ADMINISTRATORS_OID "
+        }
+      ]
+    },
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "LetGIS_Podlazi_Tech",
+          "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+          "layerId": 2000
+        },
+        "expandedByDefault": false,
+        "dependentVisibilityLayers": [
+          {
+            "mapName": "LetGISTech_DatZ",
+            "mapServiceName": "LK/LetGISTech_DatZ",
+            "layerId": 2000
+          }
+        ],
+        "children": [
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 70
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 69
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 2012
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "LetGIS_Podlazi_Tech",
+                  "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+                  "layerId": 60
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Podlazi_Tech",
+                  "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+                  "layerId": 62
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Podlazi_Tech",
+                  "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+                  "layerId": 61
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "LetGISTech_DatZ",
+              "mapServiceName": "LK/LetGISTech_DatZ",
+              "layerId": 79
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 71
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 85
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 72
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 4
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 83
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 3
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 6
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 25
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 18
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Podlazi_Tech",
+              "mapServiceName": "LK/LetGIS_Podlazi_Tech",
+              "layerId": 31
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "LetGIS_Mapa",
+          "mapServiceName": "LK/LetGIS_Mapa",
+          "layerId": 40
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGIS_Mapa",
+          "mapServiceName": "LK/LetGIS_Mapa",
+          "layerId": 2014
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 2015
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 50
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 51
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 52
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 53
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 54
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 2016
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 55
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 56
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 3001
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 57
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 58
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LetGIS_Mapa",
+                  "mapServiceName": "LK/LetGIS_Mapa",
+                  "layerId": 59
+                },
+                "selectableByDefault": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "LetGIS_Mapa",
+          "mapServiceName": "LK/LetGIS_Mapa",
+          "layerId": 2001
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 26
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 27
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 29
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 30
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 16
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "LetGIS_Mapa",
+          "mapServiceName": "LK/LetGIS_Mapa",
+          "layerId": 2002
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 84
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 75
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 76
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 82
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 21
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 22
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 23
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 20
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 5
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 1
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 10
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 9
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 7
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 8
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 11
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 24
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 3000
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Mapa",
+              "mapServiceName": "LK/LetGIS_Mapa",
+              "layerId": 12
+            },
+            "selectableByDefault": true
+          }
+        ]
+      }
+    ]
+  },
+  "LetGISTech": {
+    "dataValidity": {
+      "layerRightsTables": [
+        {
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech",
+          "layerId": 1021,
+          "userAttribute": "OWNER",
+          "layerIdAttribute": "ID_LAYER",
+          "veraficationDateAttribute": "DATUM_VERIFIKACE"
+        }
+      ],
+      "layerVerificationTables": [
+        {
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech",
+          "layerId": 1022,
+          "noteAttribute": "POZNAMKA",
+          "layersRightsOidAttribute": "X_LAYERS_ADMINISTRATORS_OID "
+        }
+      ]
+    },
+    "layerStructure": [
+      {
+        "layer": {
+          "layerId": 2000,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "layerId": 2012,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 60,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 62,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 61,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2032,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "children": [
+              {
+                "layer": {
+                  "layerId": 159,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 160,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 161,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2033,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "children": [
+              {
+                "layer": {
+                  "layerId": 163,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 164,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 165,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 166,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 69,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 70,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 79,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 71,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 85,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 72,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 801,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 133,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 158,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 4,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 2034,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true,
+                "children": [
+                  {
+                    "layer": {
+                      "layerId": 154,
+                      "mapName": "LetGISTech",
+                      "mapServiceName": "LK/LetGISTech"
+                    },
+                    "selectableByDefault": true
+                  },
+                  {
+                    "layer": {
+                      "layerId": 155,
+                      "mapName": "LetGISTech",
+                      "mapServiceName": "LK/LetGISTech"
+                    },
+                    "selectableByDefault": true
+                  },
+                  {
+                    "layer": {
+                      "layerId": 156,
+                      "mapName": "LetGISTech",
+                      "mapServiceName": "LK/LetGISTech"
+                    },
+                    "selectableByDefault": true
+                  },
+                  {
+                    "layer": {
+                      "layerId": 157,
+                      "mapName": "LetGISTech",
+                      "mapServiceName": "LK/LetGISTech"
+                    },
+                    "selectableByDefault": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2020,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "children": [
+              {
+                "layer": {
+                  "layerId": 151,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 152,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 153,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 3,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 6,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 25,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 18,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 2,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 162,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "layerId": 2001,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "layerId": 26,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 27,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 29,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 30,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 16,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "layerId": 2014,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "layerId": 2021,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 114,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 115,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2022,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 116,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 117,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 118,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2023,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 119,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 120,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 121,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 113,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 111,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 112,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2024,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 122,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 123,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 124,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2025,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 125,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 126,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 127,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2026,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 128,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 129,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2015,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 50,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 51,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 52,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 53,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 54,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 2016,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 55,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 56,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 3001,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 57,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 58,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 59,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "layer": {
+          "layerId": 2030,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "layerId": 131,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "layerId": 2031,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "layerId": 142,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 143,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 144,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 145,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "layerId": 2002,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "layerId": 84,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 75,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 76,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 82,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 22,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 23,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 20,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 5,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 1,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 10,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 9,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 7,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 21,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 8,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 24,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 2035,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "layerId": 11,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 167,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 12,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 3000,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "layerId": 19,
+                  "mapName": "LetGISTech",
+                  "mapServiceName": "LK/LetGISTech"
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "layerId": 168,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "layerId": 83,
+              "mapName": "LetGISTech",
+              "mapServiceName": "LK/LetGISTech"
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "layerId": 1015,
+          "mapName": "LetGISTech",
+          "mapServiceName": "LK/LetGISTech"
+        },
+        "selectableByDefault": true
+      }
+    ]
+  },
+  "lite_plus": {
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "LitePlus",
+          "mapServiceName": "LK/LitePlus",
+          "layerId": 2000
+        },
+        "expandedByDefault": true,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 83
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 4
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 3
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "title": "Místnosti"
+            },
+            "virtual": true,
+            "expandedByDefault": true,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "LitePlus",
+                  "mapServiceName": "LK/LitePlus",
+                  "layerId": 18
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LitePlus",
+                  "mapServiceName": "LK/LitePlus",
+                  "layerId": 2
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 6
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 25
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "LitePlus",
+          "mapServiceName": "LK/LitePlus",
+          "layerId": 2001
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 26
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 27
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 29
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 30
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 16
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "LitePlus",
+          "mapServiceName": "LK/LitePlus",
+          "layerId": 2002
+        },
+        "expandedByDefault": true,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 1
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "title": "Plochy"
+            },
+            "virtual": true,
+            "expandedByDefault": true,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "LitePlus",
+                  "mapServiceName": "LK/LitePlus",
+                  "layerId": 11
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LitePlus",
+                  "mapServiceName": "LK/LitePlus",
+                  "layerId": 19
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LitePlus",
+                  "mapServiceName": "LK/LitePlus",
+                  "layerId": 12
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "LitePlus",
+                  "mapServiceName": "LK/LitePlus",
+                  "layerId": 3000
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 24
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 5
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 10
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 22
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 23
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 7
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 21
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 20
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 9
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LitePlus",
+              "mapServiceName": "LK/LitePlus",
+              "layerId": 8
+            },
+            "selectableByDefault": true
+          }
+        ]
+      }
+    ]
+  },
+  "LetGISLite": {
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "MST_Popisky",
+          "mapServiceName": "LK/MST_Popisky",
+          "layerId": 83
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 5
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 3
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "MST_Popisky",
+          "mapServiceName": "LK/MST_Popisky",
+          "layerId": 31
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 1
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 40
+        },
+        "selectableByDefault": true
+      }
+    ]
+  },
+  "Stavby": {
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "Stavby",
+          "mapServiceName": "LK/Stavby",
+          "layerId": 170
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "Vyhled",
+          "mapServiceName": "LK/Vyhled",
+          "layerId": 4020
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4026
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4022
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4023
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4024
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4021
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4025
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4027
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4028
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4029
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4030
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4031
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4032
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4033
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4034
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4035
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4036
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4037
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4038
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4039
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4040
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4041
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4042
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4043
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4044
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4045
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4046
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4047
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4048
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4049
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4050
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4051
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4052
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4053
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4054
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4055
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4056
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4057
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4058
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4059
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4060
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4061
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4062
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4063
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4064
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4065
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4066
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4067
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4068
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4069
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4070
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4071
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4072
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4073
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4074
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4075
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4076
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4077
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4078
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4079
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4080
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4081
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4082
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4083
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4084
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4085
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4086
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4087
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4088
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4089
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4090
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4091
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4092
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4093
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4094
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4095
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4096
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4097
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4098
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4099
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4100
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4101
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4102
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4103
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4104
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4105
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4106
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4107
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4108
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4109
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4110
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4111
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4112
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4113
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4114
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4115
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4116
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4117
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4118
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4119
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4120
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4121
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4122
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4123
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4124
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4125
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4127
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4128
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4129
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4130
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4131
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4132
+                },
+                "selectableByDefault": true
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Vyhled",
+              "mapServiceName": "LK/Vyhled",
+              "layerId": 4133
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4134
+                },
+                "selectableByDefault": true
+              },
+              {
+                "layer": {
+                  "mapName": "Vyhled",
+                  "mapServiceName": "LK/Vyhled",
+                  "layerId": 4135
+                },
+                "selectableByDefault": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Analyza_prekazek": {
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "Analyza_prekazek",
+          "mapServiceName": "LK/Analyza_prekazek",
+          "layerId": 181
+        },
+        "selectableByDefault": false
+      },
+      {
+        "layer": {
+          "mapName": "Analyza_prekazek",
+          "mapServiceName": "LK/Analyza_prekazek",
+          "layerId": 182
+        },
+        "selectableByDefault": false
+      },
+      {
+        "layer": {
+          "mapName": "Analyza_prekazek",
+          "mapServiceName": "LK/Analyza_prekazek",
+          "layerId": 183
+        },
+        "selectableByDefault": false
+      },
+      {
+        "layer": {
+          "mapName": "Analyza_prekazek",
+          "mapServiceName": "LK/Analyza_prekazek",
+          "layerId": 4000
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4001
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4002
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4003
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4004
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4005
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4006
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4007
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4008
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4009
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4010
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4011
+            },
+            "selectableByDefault": false
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "Analyza_prekazek",
+          "mapServiceName": "LK/Analyza_prekazek",
+          "layerId": 4100
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4101
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4102
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4103
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4104
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4105
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4106
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4107
+            },
+            "selectableByDefault": false
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "Analyza_prekazek",
+          "mapServiceName": "LK/Analyza_prekazek",
+          "layerId": 4200
+        },
+        "expandedByDefault": false,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4201
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4202
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4203
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4204
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4205
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4206
+            },
+            "selectableByDefault": false
+          },
+          {
+            "layer": {
+              "mapName": "Analyza_prekazek",
+              "mapServiceName": "LK/Analyza_prekazek",
+              "layerId": 4207
+            },
+            "selectableByDefault": false
+          }
+        ]
+      }
+    ]
+  },
+  "kutik_test": {
+    "layerStructure": [
+      {
+        "layer": {
+          "url": "https://services.cuzk.cz/wms/wms.asp"
+        },
+        "expandedByDefault": true,
+        "children": [
+          {
+            "layer": {
+              "mapName": "Layers",
+              "mapServiceName": "RUIAN/Prohlizeci_sluzba_nad_daty_RUIAN"
+            },
+            "expandedByDefault": false,
+            "children": [
+              {
+                "layer": {
+                  "title": "Virtuální vrstva 2"
+                },
+                "virtual": true
+              },
+              {
+                "layer": {
+                  "mapName": "Map",
+                  "mapServiceName": "LK/LK",
+                  "layerId": 1
+                }
+              }
+            ]
+          },
+          {
+            "layer": {
+              "mapName": "Map",
+              "mapServiceName": "LK/LK",
+              "layerId": 3
+            }
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 2
+        }
+      },
+      {
+        "layer": {
+          "mapName": "Map",
+          "mapServiceName": "LK/LK",
+          "layerId": 18
+        }
+      }
+    ]
+  },
+  "LetGISSecurity": {
+    "layerStructure": [
+      {
+        "layer": {
+          "mapName": "LetGIS_Bezpecnost",
+          "mapServiceName": "LetGIS_Bezpecnost"
+        },
+        "expandedByDefault": true,
+        "children": [
+          {
+            "layer": {
+              "mapName": "LetGIS_Bezpecnost",
+              "mapServiceName": "LetGIS_Bezpecnost",
+              "layerId": 171
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Bezpecnost",
+              "mapServiceName": "LetGIS_Bezpecnost",
+              "layerId": 172
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Bezpecnost",
+              "mapServiceName": "LetGIS_Bezpecnost",
+              "layerId": 173
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Bezpecnost",
+              "mapServiceName": "LetGIS_Bezpecnost",
+              "layerId": 174
+            },
+            "selectableByDefault": true
+          },
+          {
+            "layer": {
+              "mapName": "LetGIS_Bezpecnost",
+              "mapServiceName": "LetGIS_Bezpecnost",
+              "layerId": 175
+            },
+            "selectableByDefault": true
+          }
+        ]
+      },
+      {
+        "layer": {
+          "mapName": "MST_Popisky",
+          "mapServiceName": "LK/MST_Popisky",
+          "layerId": 83
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 5
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 3
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "MST_Popisky",
+          "mapServiceName": "LK/MST_Popisky",
+          "layerId": 31
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 1
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 40
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 1000
+        },
+        "selectableByDefault": true
+      },
+      {
+        "layer": {
+          "mapName": "LetGISLite",
+          "mapServiceName": "LK/LetGISLite",
+          "layerId": 1015
+        },
+        "selectableByDefault": true
+      }
+    ]
+  }
+}

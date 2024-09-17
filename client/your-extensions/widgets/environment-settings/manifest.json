@@ -1,0 +1,40 @@
+{
+    "name": "environment-settings",
+    "widgetType": "NORMAL",
+    "type": "widget",
+    "label": "Správa prostředí",
+    "version": "1.14.0",
+    "exbVersion": "1.14.0",
+    "author": "Matěj Kutík",
+    "description": "Uložení a načtení viditelnosti a vybíratelnosti vrstev a rozsahu zobrazení mapy.",
+    "copyright": "HSI, s.r.o.",
+    "translatedLocales": [
+        "cs"
+    ],
+    "defaultSize": {
+        "width": 800,
+        "height": 500
+    },
+    "extensions": [
+        {
+            "name": "Notification store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/notification-store"
+        },
+        {
+            "name": "Selection store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/selection-store"
+        },
+        {
+            "name": "First Render Handler store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/first-render-handler-store"
+        },
+        {
+            "name": "Globbal Settings",
+            "point": "CONTEXT_TOOL",
+            "uri": "extensions/reduxStores/globalSettings"
+        }
+  ]
+}

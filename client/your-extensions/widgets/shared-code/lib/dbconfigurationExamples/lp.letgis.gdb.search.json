@@ -1,0 +1,2367 @@
+{
+  "sublayers": [
+    {
+      "layer": { "layerId": 2, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": { "layerId": 1, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": [
+        "NAZEV",
+        "CISLO_OBJEKTU",
+        "UPRESNENI",
+        "NAZEV_ASCII",
+        "UPRESNENI_ASCII",
+        "HLEDANI_VYRAZ"
+      ],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": { "layerId": 5, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "startsWithSearchField": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": { "layerId": 10, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": { "layerId": 22, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": { "layerId": 23, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 31,
+        "mapName": "MST_Popisky",
+        "mapServiceName": "LK/MST_Popisky"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "selectResult": false,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 1,
+        "mapName": "LetGISLite",
+        "mapServiceName": "LK/LetGISLite"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": [
+        "NAZEV",
+        "CISLO_OBJEKTU",
+        "UPRESNENI",
+        "NAZEV_ASCII",
+        "UPRESNENI_ASCII",
+        "HLEDANI_VYRAZ"
+      ],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": false,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 5,
+        "mapName": "LetGISLite",
+        "mapServiceName": "LK/LetGISLite"
+      },
+      "startsWithSearchField": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": false
+    },
+    {
+      "layer": {
+        "layerId": 83,
+        "mapName": "MST_Popisky",
+        "mapServiceName": "LK/MST_Popisky"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "minSuggestCharacters": 1,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 83,
+        "mapName": "Vstupni_misto",
+        "mapServiceName": "LK/Vstupni_misto"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "minSuggestCharacters": 1,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 1,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": [
+        "NAZEV",
+        "CISLO_OBJEKTU",
+        "UPRESNENI",
+        "NAZEV_ASCII",
+        "UPRESNENI_ASCII",
+        "HLEDANI_VYRAZ"
+      ],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 5,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "startsWithSearchField": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 10,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 19,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{FTID}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 22,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 23,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 25,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 83,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": [
+        "NAZEV",
+        "CISLO_OBJEKTU",
+        "UPRESNENI",
+        "NAZEV_ASCII",
+        "UPRESNENI_ASCII",
+        "HLEDANI_VYRAZ"
+      ],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 5,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "startsWithSearchField": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 10,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 22,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 23,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 25,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 82,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "startsWithSearchField": ["NAZEV_VRTU"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{NAZEV_VRTU}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 84,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "searchFields": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 50,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 51,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 52,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 53,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 54,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 55,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 56,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 58,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 59,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 79,
+        "mapName": "LetGISTech_DatZ",
+        "mapServiceName": "LK/LetGISTech_DatZ"
+      },
+      "searchFields": ["FTID", "ZASUVKA1", "ZASUVKA2", "IDF_LABEL", "DISPLAY"],
+      "startsWithSearchField": ["DISPLAY"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 60,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 61,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 62,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "strictSearchField": ["FTID", "CISLO_VYROBNI"],
+      "suggestionTemplate": "{CISLO_VYROBNI}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 69,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 70,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 71,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 72,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 83,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 85,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "searchFields": ["NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{NAZEV}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": [
+        "NAZEV",
+        "CISLO_OBJEKTU",
+        "UPRESNENI",
+        "NAZEV_ASCII",
+        "UPRESNENI_ASCII",
+        "HLEDANI_VYRAZ"
+      ],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 5,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "startsWithSearchField": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 10,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["DISPLAY"],
+      "startsWithSearchField": ["NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 19,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{FTID}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 22,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 23,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 25,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID", "CISLO"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 50,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 51,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 52,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 53,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 54,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 55,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 56,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 57,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 58,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 59,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 60,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 61,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 62,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["FTID", "CISLO_VYROBNI"],
+      "suggestionTemplate": "{CISLO_VYROBNI}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 69,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 70,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{CISLO}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 71,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 72,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 79,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["FTID", "ZASUVKA1", "ZASUVKA2", "IDF_LABEL", "DISPLAY"],
+      "startsWithSearchField": ["DISPLAY"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "layer": {
+        "layerId": 82,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "startsWithSearchField": ["NAZEV_VRTU"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{NAZEV_VRTU}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 83,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["CISLO"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 84,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["OZNACENI"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{OZNACENI}",
+      "minSuggestCharacters": 2,
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "layer": {
+        "layerId": 85,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{NAZEV}",
+      "popupEnabled": true,
+      "selectResult": true
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 101,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LK/LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 102,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LK/LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 103,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LK/LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 104,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LK/LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 105,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LK/LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 111,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 112,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 113,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 114,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 115,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 116,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 117,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 118,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 119,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 120,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 121,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1050,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1051,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 122,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 123,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 124,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1052,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1053,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 125,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 126,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 127,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 128,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 129,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 131,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 132,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 133,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 134,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 135,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 136,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 137,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 138,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 139,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 140,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 141,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 142,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 143,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 144,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 145,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1053,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 151,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 152,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 153,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1054,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1055,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 154,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 155,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 156,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 157,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1061,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1062,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1063,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1064,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 1056,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 159,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 160,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 161,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 162,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 163,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 164,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 165,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 166,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 171,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 172,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 173,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 167,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 168,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 181,
+        "mapName": "LetGISAnalyzaPrekazek",
+        "mapServiceName": "LK/LetGISAnalyzaPrekazek"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": [],
+      "selectResult": false,
+      "startsWithSearchField": ["SDEDO.Obstacle.ELEVATION"],
+      "strictSearchField": [],
+      "suggestionTemplate": "{SDEDO.Obstacle.ELEVATION}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 171,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": ["CISLO", "DISPLAY"],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{FTID}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 172,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": ["MAPNAME", "CAMID", "MOID", "TPLNAME"],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{MAPNAME}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 173,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": ["OZNACENI", "DISPLAY"],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{FTID}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 174,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": ["NAZEV", "DISPLAY", "POPIS"],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{POPIS}"
+    },
+    {
+      "complexSearch": false,
+      "layer": {
+        "layerId": 175,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "maxSuggestions": 10,
+      "popupEnabled": true,
+      "searchFields": ["CAMID", "MAPNAME", "DISPLAY"],
+      "selectResult": true,
+      "startsWithSearchField": [],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{MAPNAME}"
+    }
+  ],
+  "tables": [
+    {
+      "table": { "layerId": 1003, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "searchFields": ["MAIL"],
+      "startsWithSearchField": ["JMENO", "PRIJMENI"],
+      "strictSearchField": ["LINKA", "MOBIL", "ID"],
+      "suggestionTemplate": "{SEARCH}",
+      "selectResult": true
+    },
+    {
+      "table": { "layerId": 1004, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "strictSearchField": ["CISLO_MAJETKU"],
+      "suggestionTemplate": "{CISLO_MAJETKU}",
+      "selectResult": true
+    },
+    {
+      "table": { "layerId": 1012, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "strictSearchField": ["CIS_SMLOUVA"],
+      "suggestionTemplate": "{DISPLAY}",
+      "selectResult": true
+    },
+    {
+      "table": { "layerId": 1013, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "searchFields": ["NAZEV_OP"],
+      "strictSearchField": ["CISLO"],
+      "suggestionTemplate": "{NAZEV_OP}",
+      "selectResult": true
+    },
+    {
+      "table": { "layerId": 1014, "mapName": "Map", "mapServiceName": "LK/LK" },
+      "searchFields": ["NAZEV_PROVOZOVNY"],
+      "suggestionTemplate": "{NAZEV_PROVOZOVNY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1003,
+        "mapServiceName": "LK/LetGISLite",
+        "mapName": "LetGISLite"
+      },
+      "searchFields": ["MAIL"],
+      "startsWithSearchField": ["JMENO", "PRIJMENI"],
+      "strictSearchField": ["LINKA", "MOBIL", "ID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 7,
+      "selectResult": false,
+      "complexSearch": true
+    },
+    {
+      "table": {
+        "layerId": 1013,
+        "mapServiceName": "LK/LetGISLite",
+        "mapName": "LetGISLite"
+      },
+      "searchFields": ["NAZEV_OP"],
+      "strictSearchField": ["CISLO"],
+      "suggestionTemplate": "{DISPLAY}",
+      "selectResult": false
+    },
+    {
+      "table": {
+        "layerId": 1014,
+        "mapServiceName": "LK/LetGISLite",
+        "mapName": "LetGISLite"
+      },
+      "searchFields": ["NAZEV_PROVOZOVNY"],
+      "suggestionTemplate": "{NAZEV_PROVOZOVNY}",
+      "selectResult": false
+    },
+    {
+      "table": {
+        "layerId": 1003,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["MAIL"],
+      "startsWithSearchField": ["JMENO", "PRIJMENI"],
+      "strictSearchField": ["LINKA", "MOBIL", "ID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "table": {
+        "layerId": 1004,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "strictSearchField": ["CISLO_MAJETKU"],
+      "suggestionTemplate": "{CISLO_MAJETKU}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1013,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["NAZEV_OP"],
+      "strictSearchField": ["CISLO"],
+      "suggestionTemplate": "{DISPLAY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1014,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "searchFields": ["NAZEV_PROVOZOVNY"],
+      "suggestionTemplate": "{NAZEV_PROVOZOVNY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1013,
+        "mapServiceName": "LK/LetGIS_Mapa",
+        "mapName": "LetGIS_Mapa"
+      },
+      "searchFields": ["NAZEV_OP"],
+      "strictSearchField": ["CISLO"],
+      "suggestionTemplate": "{DISPLAY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1014,
+        "mapServiceName": "LK/LetGIS_Mapa",
+        "mapName": "LetGIS_Mapa"
+      },
+      "searchFields": ["NAZEV_PROVOZOVNY"],
+      "suggestionTemplate": "{NAZEV_PROVOZOVNY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1003,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "searchFields": ["MAIL"],
+      "startsWithSearchField": ["JMENO", "PRIJMENI"],
+      "strictSearchField": ["LINKA", "MOBIL", "ID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "table": {
+        "layerId": 1004,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "strictSearchField": ["CISLO_MAJETKU"],
+      "suggestionTemplate": "{CISLO_MAJETKU}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1013,
+        "mapServiceName": "LK/LetGISTech",
+        "mapName": "LetGISTech"
+      },
+      "searchFields": ["NAZEV_OP"],
+      "strictSearchField": ["CISLO"],
+      "suggestionTemplate": "{DISPLAY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1014,
+        "mapServiceName": "LK/LetGISTech",
+        "mapName": "LetGISTech"
+      },
+      "searchFields": ["NAZEV_PROVOZOVNY"],
+      "suggestionTemplate": "{NAZEV_PROVOZOVNY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1003,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["MAIL"],
+      "startsWithSearchField": ["JMENO", "PRIJMENI"],
+      "strictSearchField": ["LINKA", "MOBIL", "ID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "maxSuggestions": 10,
+      "selectResult": true,
+      "complexSearch": true
+    },
+    {
+      "table": {
+        "layerId": 1004,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "strictSearchField": ["CISLO_MAJETKU"],
+      "suggestionTemplate": "{CISLO_MAJETKU}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1023,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["DISPLAY"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "selectResult": true
+    },
+    {
+      "table": {
+        "layerId": 1024,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "searchFields": ["DISPLAY", "NAZEV"],
+      "strictSearchField": ["FTID"],
+      "suggestionTemplate": "{DISPLAY}",
+      "complexSearch": true,
+      "selectResult": true
+    }
+  ],
+  "geocoding": [
+    {
+      "title": "Adresní místo",
+      "url": "https://ags.cuzk.cz/arcgis/rest/services/RUIAN/Vyhledavaci_sluzba_nad_daty_RUIAN/MapServer/exts/GeocodeSOE/tables/1",
+      "onlyWhenSelected": true
+    },
+    {
+      "title": "Parcela - definiční bod",
+      "url": "https://ags.cuzk.cz/arcgis/rest/services/RUIAN/Vyhledavaci_sluzba_nad_daty_RUIAN/MapServer/exts/GeocodeSOE/tables/0",
+      "onlyWhenSelected": true
+    }
+  ],
+  "resultBehavior": {
+    "default": {
+      "graphics": { "select": true, "display": false },
+      "notGraphics": { "select": true, "display": true }
+    },
+    "lite": {
+      "graphics": { "select": false, "display": true },
+      "notGraphics": { "select": false, "display": true }
+    },
+    "mobile": {
+      "graphics": { "select": false, "display": true },
+      "notGraphics": { "select": false, "display": true }
+    }
+  },
+  "maxSuggestions": 7,
+  "color": "rgba(0,0,0,.2)",
+  "complexSearch": false
+}

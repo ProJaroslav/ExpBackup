@@ -1,0 +1,10 @@
+.hsi-widget-body {
+    height: 100%;
+    >.card-body {
+        overflow: auto;
+    }
+
+    >.card-footer {
+        text-align: right;
+    }
+}

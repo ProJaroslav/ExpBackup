@@ -1,0 +1,29 @@
+.widget-CoordinateConversion {
+    height: 100%;
+
+    >.card-body {
+       overflow: auto; 
+       display: grid;
+       grid-template: repeat(3, auto) 1fr / repeat(2, auto) 1fr;
+       gap: .5rem;
+       align-items: center;
+       align-content: start;
+       justify-content: start;
+
+       label {
+           margin: unset;
+       }
+
+       .coordinate-conversion-select-conversion-label {
+           grid-column-start: 1;
+           grid-column-end: 3;
+       }
+
+       .result-area {
+           grid-column-start: 1;
+           grid-column-end: 4;
+           height: 100%;
+           resize: none;
+       }
+    }
+}

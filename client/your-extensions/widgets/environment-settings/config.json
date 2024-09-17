@@ -1,0 +1,38 @@
+{
+    "predefinedEnvironments": [
+        {
+            "viewpoint": {
+                "rotation": 0,
+                "scale": 53205.810338452386,
+                "targetGeometry": {
+                    "spatialReference": {
+                        "latestWkid": 5514,
+                        "wkid": 102067
+                    },
+                    "x": -813406.3952485877,
+                    "y": -995409.4837391396
+                }
+            },
+            "id": "DNT",
+            "title": "DNT" 
+        },
+        {
+            "viewpoint": {
+                "rotation": 0,
+                "scale": 53205.81033845336,
+                "targetGeometry": {
+                    "spatialReference": {
+                        "latestWkid": 5514,
+                        "wkid": 102067
+                    },
+                    "x": -788140.3728127775,
+                    "y": -981829.9893315234
+                }
+            },
+            "id": "DB",
+            "title": "DB" 
+        }
+    ],
+    "fileName": "Prostředí",
+    "highlightColor": "#16ba3a"
+}

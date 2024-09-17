@@ -1,0 +1,40 @@
+{
+    "name": "queries-table",
+    "widgetType": "NORMAL",
+    "type": "widget",
+    "label": "Dotazy",
+    "version": "1.14.0",
+    "exbVersion": "1.14.0",
+    "author": "Matěj Kutík",
+    "description": "Umožňuje realizaci uživatelem definovaných a přednastavených dotazů vůči třídám prvků dostupných v aktivním prostředí.",
+    "copyright": "HSI, s.r.o.",
+    "translatedLocales": [
+        "cs"
+    ],
+    "defaultSize": {
+        "width": 800,
+        "height": 500
+    },
+    "extensions": [
+        {
+            "name": "Notification store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/notification-store"
+        },
+        {
+            "name": "Selection store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/selection-store"
+        },
+        {
+            "name": "First Render Handler store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/first-render-handler-store"
+        },
+        {
+            "name": "Globbal Settings",
+            "point": "CONTEXT_TOOL",
+            "uri": "extensions/reduxStores/globalSettings"
+        }
+  ]
+}

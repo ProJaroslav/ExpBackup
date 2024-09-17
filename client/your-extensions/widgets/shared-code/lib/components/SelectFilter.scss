@@ -1,0 +1,13 @@
+.select-filter-option {
+    position: sticky;
+    top: 0;
+    background-color: var(--white);
+
+    .select-filter {
+        width: 100%;
+    }
+}
+
+.multi-select-filter-wrapper {
+    padding: 0.25rem 1rem;
+}

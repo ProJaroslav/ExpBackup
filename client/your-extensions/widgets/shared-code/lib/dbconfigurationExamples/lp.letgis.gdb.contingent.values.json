@@ -1,0 +1,45 @@
+{
+    "mapServices": [{
+        "mapName": "Map",
+        "mapServiceName": "LK/LK",
+        "layers": [{
+            "layerId": 72,
+            "contingentValueDefinitions": [{
+                "name": "typ",
+                "fieldOrder": ["CTYP","C_PODTYP"]
+            }]  
+        }]
+    }, {
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech",
+        "layers": [{
+            "layerId": 158,
+            "dependencyLayers": [{
+                "attributeName": "SDEDO.PP_MERIDLO.UZEL",
+                "dependencyAttributeName": "SDEDO.PP_MERIDLO.C_DRUH",
+                "dependencyLayerAttributeName": "UZEL",
+                "dependencyLayerSearchAttributeName": "ENERGIE",
+                "layer": {
+                    "layerId": 1064,
+                    "mapName": "LetGISTech",
+                    "mapServiceName": "LK/LetGISTech"
+                },
+                "whereClauses": [
+                    {
+                        "value": 1,
+                        "whereClause": "{0} IN ('E1', 'E2')"
+                    }, {
+                        "value": 2,
+                        "whereClause": "{0} IN ('P1', 'P2')"
+                    }, {
+                        "value": 3,
+                        "whereClause": "{0} IN ('O1', 'O2',  'Ch')"
+                    }, {
+                        "value": 4,
+                        "whereClause": "{0} IN ('V1', 'V2')"
+                    }
+                ]
+            }]
+        }]
+    }]
+}

@@ -1,0 +1,45 @@
+.widget-property-report-table {
+    >.card-body {
+        display: grid;
+        grid-template-columns: repeat(2, auto) 1fr;
+        grid-template-rows: repeat(3, auto) 1fr;
+        gap: 10px;
+
+        > label {
+            grid-column: 1;
+            margin: 0px;
+            align-self: center;
+        }
+
+        > .jimu-input {
+            grid-column: 2;
+        }
+
+        .hsi-feature-table {
+            grid-column-start: 1;
+            grid-column-end: 4;
+
+            &.loading {
+                display: flex;
+            }
+        }
+    }
+
+}
+
+.property-report-table-difference-modal {
+    .modal-dialog {
+        max-width: 75%;
+        .modal-content {
+            height: 50vh;
+            .modal-body {
+                display: flex;
+                flex-direction: column;
+                .hsi-feature-table {
+                    flex: 1;
+                }
+            }
+
+        }
+    }
+}

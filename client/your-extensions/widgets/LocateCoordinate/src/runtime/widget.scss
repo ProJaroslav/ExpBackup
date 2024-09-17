@@ -1,0 +1,23 @@
+.widget-LocateCoordinate {
+    height: 100%;
+    user-select: none;
+
+    .card-body {
+        overflow: auto;
+        display: grid;
+        gap: .5rem;
+        align-items: baseline;
+        width: 100%;
+        grid-template-columns: auto 1fr;
+        align-content: flex-start;
+
+        .coordinate-example {
+            grid-column: 2;
+            color: var(--light-700);
+            margin: 0;
+            user-select: text;
+            font-size: .8em;
+            margin-top: -0.5em;
+        }
+    }
+}

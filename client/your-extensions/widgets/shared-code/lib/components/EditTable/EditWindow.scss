@@ -1,0 +1,10 @@
+.hsi-edit-table-modal {
+    .modal-dialog {
+        max-width: 50%;
+
+        .modal-body {
+            max-height: 50vh;
+            overflow: auto;
+        }
+    }
+}

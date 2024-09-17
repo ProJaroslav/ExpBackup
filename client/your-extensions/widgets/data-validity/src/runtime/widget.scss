@@ -1,0 +1,10 @@
+.widget-data-validity {
+    display: flex;
+    align-items: center;
+
+    .jimu-loading {
+        position: relative;
+        align-self: end;
+        margin-left: 5px;
+    }
+}

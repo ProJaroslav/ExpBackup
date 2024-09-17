@@ -1,0 +1,11 @@
+.widget-text-draw {
+    >.card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .esri-sketch__panel {
+            align-self: flex-start;
+        }
+    }
+}

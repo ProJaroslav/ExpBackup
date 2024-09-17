@@ -1,0 +1,2314 @@
+{
+  "attributeRelationships": [
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "41FD397A-CF3C-48A7-9488-5C6ADD652222",
+      "originLayer": {
+        "layerId": 19,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1029,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Plocha",
+      "backwardLabel": "Vegetační skupina celkem"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "4dd489ed-c0f2-404d-90a0-9da357b3a374",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 2,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "78EAEC00-1789-4FEA-B3D6-D7813EA28C80",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1009,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Část objektu",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKTCAST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "F34E5C26-54C9-42E5-A28C-7D0D1EED44C3",
+      "originLayer": {
+        "layerId": 1009,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 2,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Část objektu"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "C0C4F826-F01B-49F2-9DD3-9C2621CC4C6D",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1003,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Obsazení",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "F1B348CB-6E1D-4B19-BF60-C7CDF9B71BDA",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "AA3BE757-2417-46FC-A638-76C9EE8FC351",
+      "originLayer": {
+        "layerId": 25,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Komerční plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CIS_SMLOUVA",
+      "originForeignKey": "CISLO",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "F6094971-CCC5-49DC-9BFC-FF3E79BEB557",
+      "originLayer": {
+        "layerId": 1012,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1013,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "SAP REM Smlouvy",
+      "backwardLabel": "SAP REM Místnosti a Komerční plochy"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CISLO",
+      "originForeignKey": "CIS_SMLOUVA",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "41FD397A-CF3C-48A7-9488-5C6ADD652788",
+      "originLayer": {
+        "layerId": 1013,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1014,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "SAP REM Provozovny",
+      "backwardLabel": "SAP REM Smlouvy"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_OBJEKT_SAP_KARTYMAJETKU",
+      "id": "68552EDC-F849-46F5-B093-C5743E1E52C5",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_PLOCHA_SAP_KARTYMAJETKU",
+      "id": "1C4A490D-4D63-4E65-BD2A-CF8E27FCFFFF",
+      "originLayer": {
+        "layerId": 19,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Plocha"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_KABELY",
+      "destinationPrimaryKey": "FTID",
+      "destinationForeignKey": "FTID_TRASY",
+      "joinTableName": "SDEDO.R_IS_SIL_TRASY_KABELY",
+      "id": "1ACAF05B-EB87-4D99-86DE-4DDE200045EB",
+      "originLayer": {
+        "layerId": 1050,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 124,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Silnoproud trasy",
+      "backwardLabel": "Silnoproud kabely"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_KABELY",
+      "destinationPrimaryKey": "FTID",
+      "destinationForeignKey": "FTID_TRASY",
+      "joinTableName": "SDEDO.R_IS_SLA_TRASY_KABELY",
+      "id": "E95FBC69-AEAE-4266-A519-693856A75226",
+      "originLayer": {
+        "layerId": 1052,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 127,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Slaboproud trasy",
+      "backwardLabel": "Slaboproud kabely"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "7993CE84-AC02-40C6-8149-A445917D2222",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "102B3821-CF01-46DE-B255-52EE43C56666",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CISLO",
+      "originForeignKey": "CIS_SMLOUVA",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "FB9F20E4-5364-4B9C-9823-9E51BFEE9634",
+      "originLayer": {
+        "layerId": 1012,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1016,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "SAP REM Smlouvy a Provozovny",
+      "backwardLabel": "SAP REM Místnosti a Komerční plochy"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "610E60F0-2CC0-4319-84D2-D2C5B90DDF93",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1017,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "REM",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "B0F4D9F2-8E5F-49A1-8B4E-EF1847ABB001",
+      "originLayer": {
+        "layerId": 25,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "destinationLayer": {
+        "layerId": 1017,
+        "mapName": "Map",
+        "mapServiceName": "LK/LK"
+      },
+      "forwardLabel": "REM",
+      "backwardLabel": "Komerční plochy"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "FF0C5AE7-148F-409D-8630-4AD26A82E9B1",
+      "originLayer": {
+        "layerId": 2,
+        "mapServiceName": "LK/LetGISLite",
+        "mapName": "LetGISLite"
+      },
+      "destinationLayer": {
+        "layerId": 1003,
+        "mapServiceName": "LK/LetGISLite",
+        "mapName": "LetGISLite"
+      },
+      "forwardLabel": "Obsazení",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "CAA994A5-F4AB-40B8-82E3-64EAA96453E2",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "41F0DD00-8BF3-43AA-9F3E-84E6790F34E2",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1009,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Část objektu",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKTCAST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "DA2019B3-8278-44E8-843C-9FA709550D7C",
+      "originLayer": {
+        "layerId": 1009,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Část objektu"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "F1E6EE88-2602-4FA4-A444-FFAAF3B7B1B1",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1003,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Obsazení",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "E2DF8AE9-31D9-4247-9D97-D5EB57CE5777",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "537693b7-c333-4926-813f-f406cf368c29",
+      "originLayer": {
+        "layerId": 25,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Komerční plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CIS_SMLOUVA",
+      "originForeignKey": "CISLO",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "DBE45B41-6D1F-4572-906B-59687966317E",
+      "originLayer": {
+        "layerId": 1012,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1013,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "SAP REM Smlouvy",
+      "backwardLabel": "SAP REM Místnosti a Komerční plochy"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CISLO",
+      "originForeignKey": "CIS_SMLOUVA",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "C7F02B50-914E-44A0-A728-77F4B571C5F1",
+      "originLayer": {
+        "layerId": 1013,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1014,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "SAP REM Provozovny",
+      "backwardLabel": "SAP REM Smlouvy"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_OBJEKT_SAP_KARTYMAJETKU",
+      "id": "84A2FFC5-D6C4-4624-A73F-0EE2228C9FE9",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_PLOCHA_SAP_KARTYMAJETKU",
+      "id": "1C4A490D-4D63-4E65-BD2A-CF8E27FCF5AB",
+      "originLayer": {
+        "layerId": 19,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "7993CE84-AC02-40C6-8149-A445917D2502",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "102B3821-CF01-46DE-B255-52EE43C560E5",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "8C9BCD0C-8695-A5C9-8B66-ADB427DC71B2",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 83,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Vstupní místo",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "F88BA1B7-6184-04BD-4F6B-FFE9E92554E8",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "destinationLayer": {
+        "layerId": 83,
+        "mapName": "LitePlus",
+        "mapServiceName": "LK/LitePlus"
+      },
+      "forwardLabel": "Vstupní místo",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "ADE25E92-4D7C-4C60-8815-5298C7E5F31D",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "5B41FE94-1385-4440-8032-EF63CE2E75D2",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1009,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Část objektu",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKTCAST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "EEB96319-0F37-45F4-A30B-42AB012CD363",
+      "originLayer": {
+        "layerId": 1009,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Část objektu"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "68D76680-E82A-42F8-9293-7BD7761BB064",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 1003,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Obsazení",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "4E2D36F8-6E01-402C-A336-77A85866C5F8",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "958D9BBB-0309-40D2-BDF0-692729E175BB",
+      "originLayer": {
+        "layerId": 25,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Komerční plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CIS_SMLOUVA",
+      "originForeignKey": "CISLO",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "958D9BBB-0309-40D2-BDF0-692729E175BB",
+      "originLayer": {
+        "layerId": 1012,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1013,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "SAP REM Smlouvy",
+      "backwardLabel": "SAP REM Místnosti a Komerční plochy"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CISLO",
+      "originForeignKey": "CIS_SMLOUVA",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "9F4A09AF-E031-4720-8051-6A49B782DD8C",
+      "originLayer": {
+        "layerId": 1013,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1014,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "SAP REM Provozovny",
+      "backwardLabel": "SAP REM Smlouvy"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_OBJEKT_SAP_KARTYMAJETKU",
+      "id": "9F4A09AF-E031-4720-8051-6A49B7874569",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_PLOCHA_SAP_KARTYMAJETKU",
+      "id": "83CE7EAB-2C37-4F43-A255-8FA117CCDC03",
+      "originLayer": {
+        "layerId": 12,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "7EFDA32B-6611-5D54-9623-9A4497F97436",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "DCCB9F7F-4D19-9F3D-408C-92034D064589",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "B1ECDD69-F1B1-4B08-8D12-0B5300965ADD",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 62,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Hasicí přístroje",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "B740D9DE-59E0-450C-8C58-624A500CC360",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 62,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Hasicí přístroje",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "2495559B-4AA4-452D-8D61-142488682428",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 69,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Dveře",
+      "backwardLabel": "Místnost z"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "819E2CE8-5B77-4359-8F4A-97E9C839C263",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 69,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Dveře",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "09E49BF2-EEC3-4B94-A87D-882DDFB94EE0",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 72,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Navigační cedule",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "38ED62BB-4314-47A9-9EF4-F4FBEFCC03D8",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 72,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Navigační cedule",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "E1410C25-FF5E-44AC-A288-78EFB6EA185D",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 71,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Nevýnosové produkty",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "DADE93C2-2F9A-4644-B384-C5D34AE8CB1B",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 71,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Nevýnosové produkty",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "70D2A2C6-8449-4288-893F-1A550A3D18B9",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 61,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Klíčové trezory",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "8EF7CF4C-5F25-47B7-8CDD-15518FE60AEB",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 60,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Požární hydranty",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "5BF53426-05FF-4404-A083-C7503899F9F2",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 60,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Požární hydranty",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "40E231DE-CA0B-41F4-8DA7-A613DEE3A3EF",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 70,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Čtečky",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "667569C1-5CD3-4220-ACFB-A2310EBDE9DB",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 70,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Čtečky",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_NPRODUKTY",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "1C472AA7-CB46-49F3-9C11-D0D22A7BCA8D",
+      "originLayer": {
+        "layerId": 71,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 1023,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "Vybavení",
+      "backwardLabel": "Nevýnosové produkty"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "59E5A511-B18D-4A65-9219-AE54827FC894",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 85,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Reklama",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "14A1FF5F-3771-4AEA-8EAB-15A572016C12",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 85,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Reklama",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "A9F835F5-04DB-47B8-989C-49FEAEC300D6",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 79,
+        "mapName": "LetGISTech_DatZ",
+        "mapServiceName": "LK/LetGISTech_DatZ"
+      },
+      "forwardLabel": "Datové zásuvky",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "AD36E370-05DF-43F0-B763-245A624C66C1",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 79,
+        "mapName": "LetGISTech_DatZ",
+        "mapServiceName": "LK/LetGISTech_DatZ"
+      },
+      "forwardLabel": "Datové zásuvky",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "BC887F52-17B7-40D8-8BBB-75E5A1EFD89B",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 83,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Vstupní místo",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "12BAF50C-5890-47FD-8B03-25547D3F9DA8",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "destinationLayer": {
+        "layerId": 83,
+        "mapName": "LetGIS_Podlazi_Tech",
+        "mapServiceName": "LK/LetGIS_Podlazi_Tech"
+      },
+      "forwardLabel": "Vstupní místo",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "575A0D31-68CB-454D-BA55-730D031796C6",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "destinationLayer": {
+        "layerId": 1024,
+        "mapName": "LetGIS_Mapa",
+        "mapServiceName": "LK/LetGIS_Mapa"
+      },
+      "forwardLabel": "IDF",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "41FA1435-5B88-5C99-21FB-B16E34815354",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "E0BEDF7E-37DC-6B06-26FB-A9981A3DA1BC",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1009,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Část objektu",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKTCAST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "77ADA94C-113C-4F34-847D-77B788C34393",
+      "originLayer": {
+        "layerId": 1009,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Místnost",
+      "backwardLabel": "Část objektu"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "4CECE4DA-1578-A49D-2150-BD16538968D5",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1003,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Obsazení",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "37C15FA1-008C-A0E0-63FB-8202652B1BC4",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0F09C13D-1268-9420-9446-6041C2ED0FEC",
+      "originLayer": {
+        "layerId": 25,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1012,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "SAP REM Místnosti a Komerční plochy",
+      "backwardLabel": "Komerční plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CIS_SMLOUVA",
+      "originForeignKey": "CISLO",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "B703C5FC-2BC8-1E76-4FC6-2CC70F9A19B6",
+      "originLayer": {
+        "layerId": 1012,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1013,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "SAP REM Smlouvy",
+      "backwardLabel": "SAP REM Místnosti a Komerční plochy"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "CISLO",
+      "originForeignKey": "CIS_SMLOUVA",
+      "destinationPrimaryKey": "ID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "81856042-93D2-6C96-4C80-05BDA4F09FDD",
+      "originLayer": {
+        "layerId": 1013,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1014,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "SAP REM Provozovny",
+      "backwardLabel": "SAP REM Smlouvy"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_OBJEKT_SAP_KARTYMAJETKU",
+      "id": "F10ADA21-7255-8209-5D21-DB2D2EA10E86",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "ManyToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "CISLO_MAJETKU_REL",
+      "destinationForeignKey": "CISLO_MAJETKU",
+      "joinTableName": "SDEDO.R_ZM_PLOCHA_SAP_KARTYMAJETKU",
+      "id": "2FFB827E-78B4-A6A3-46E1-0CAF77C52594",
+      "originLayer": {
+        "layerId": 19,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Karty majetku",
+      "backwardLabel": "Plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "7EFDA32B-6611-5D54-9623-9A4497F074B6",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJ",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "DCCB9F7F-4D19-9F3D-408C-92034D097224",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1004,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Majetek",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "068DDD68-4247-0BA1-66B8-5AA0DE68350F",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 62,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Hasicí přístroje",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "687FAB0B-6588-6253-091C-0E307222A0C2",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 62,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Hasicí přístroje",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "A0C7E59F-8E6E-4068-257D-FF914EDA4BAE",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 69,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Dveře z",
+      "backwardLabel": "Místnost z"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST2",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "9809E006-53A8-A00B-68BD-033BF9E5930C",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 69,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Dveře do",
+      "backwardLabel": "Místnost do"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "243F4382-7B5A-79D2-4BFA-C14F1E442C39",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 69,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Dveře",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "418E863B-4AEF-1C1D-710D-58F95E8B37E5",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 72,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Navigační cedule",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "AA2DFD11-516B-7731-11A0-A45052270633",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 72,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Navigační cedule",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "4BAA245D-13E5-44B5-2CC1-B559927B8241",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 71,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Nevýnosové produkty",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "462C00CF-67AD-1935-9169-FD93270E567E",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 71,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Nevýnosové produkty",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "9B1E319C-68CF-5953-23F3-224A56951BD0",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 61,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Klíčové trezory",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "6CFFBA9B-88F8-3A74-0C95-27A691A910D2",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 60,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Požární hydranty",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "1FEADFBF-3309-161E-536C-6048CCCB4302",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 60,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Požární hydranty",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "7F094A9C-159A-8E56-09B3-9022EC06069C",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 70,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Čtečky",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "BEDA3B30-090C-39BC-0086-F431C2451EEE",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 70,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Čtečky",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_NPRODUKTY",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "DBE8B3BD-44DA-4499-3B40-37FF22CC4394",
+      "originLayer": {
+        "layerId": 71,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1023,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Vybavení",
+      "backwardLabel": "Nevýnosové produkty"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "CACCD5EC-93A5-1C9C-4051-0DA542FE03D7",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 85,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Reklama",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "F96EDC4C-09E4-0D29-385D-67D0BD5F367C",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 85,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Reklama",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "3DD060BA-61FC-8756-5445-3CE62E1F2985",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 79,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Datové zásuvky",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "CFBDBD64-518E-7A77-9C08-FB50F5ED199E",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 79,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Datové zásuvky",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "5528AB83-3289-A26E-1D40-B59E607C3CA1",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 83,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Vstupní místo",
+      "backwardLabel": "Objekt"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0931ADA8-A406-830C-6722-4A791FA52444",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 83,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Vstupní místo",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0931ADA8-A406-830C-6722-4A791FA52456",
+      "originLayer": {
+        "layerId": 2,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1024,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "IDF",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_STROM",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0CF037CD-4C8B-A5C5-A480-3A00618F6FFF",
+      "originLayer": {
+        "layerId": 75,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1025,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Stromy Pasport",
+      "backwardLabel": "Strom"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_STROM",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0CF037CD-4C8B-A5C5-A480-3A00618EEEEE",
+      "originLayer": {
+        "layerId": 75,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1028,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Vegetační Pasport",
+      "backwardLabel": "Strom"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0CF037CD-4C8B-A5C5-A480-3A0061888888",
+      "originLayer": {
+        "layerId": 19,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1028,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Vegetační Pasport",
+      "backwardLabel": "Plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_PLOCHA",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "0CF037CD-4C8B-A5C5-A480-3A0061111111",
+      "originLayer": {
+        "layerId": 19,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "destinationLayer": {
+        "layerId": 1029,
+        "mapName": "LetGISTech",
+        "mapServiceName": "LK/LetGISTech"
+      },
+      "forwardLabel": "Vegetační Pasport Celkem",
+      "backwardLabel": "Plocha"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "E30E52A8-FD25-4506-B695-140B120D6D62",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "MST_Popisky",
+        "mapServiceName": "LK/MST_Popisky"
+      },
+      "destinationLayer": {
+        "layerId": 171,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "forwardLabel": "Bezpečnostní prvky",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "33E44C9B-FC16-4EC5-8065-1F44B8DD4DA6",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISLite",
+        "mapServiceName": "LK/LetGISLite"
+      },
+      "destinationLayer": {
+        "layerId": 171,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "forwardLabel": "Bezpečnostní prvky",
+      "backwardLabel": "Objekty"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "A10F5F3D-7F17-4D39-9356-F496D1DE355D",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "MST_Popisky",
+        "mapServiceName": "LK/MST_Popisky"
+      },
+      "destinationLayer": {
+        "layerId": 172,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "forwardLabel": "Kamery (CCTV)",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "CCBFB266-BEE3-463F-8A5B-013493160DCC",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISLite",
+        "mapServiceName": "LK/LetGISLite"
+      },
+      "destinationLayer": {
+        "layerId": 172,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "forwardLabel": "Kamery (CCTV)",
+      "backwardLabel": "Objekty"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_MISTNOST",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "5170E302-A006-4A76-B1E6-65AB8029A874",
+      "originLayer": {
+        "layerId": 31,
+        "mapName": "MST_Popisky",
+        "mapServiceName": "LK/MST_Popisky"
+      },
+      "destinationLayer": {
+        "layerId": 174,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "forwardLabel": "PZTS",
+      "backwardLabel": "Místnost"
+    },
+    {
+      "cardinality": "OneToMany",
+      "originPrimaryKey": "FTID",
+      "originForeignKey": "FTID_OBJEKT",
+      "destinationPrimaryKey": "OBJECTID",
+      "destinationForeignKey": null,
+      "joinTableName": null,
+      "id": "438744B2-9ABE-4541-B9C2-6F14D855AD71",
+      "originLayer": {
+        "layerId": 1,
+        "mapName": "LetGISLite",
+        "mapServiceName": "LK/LetGISLite"
+      },
+      "destinationLayer": {
+        "layerId": 174,
+        "mapName": "LetGIS_Bezpecnost",
+        "mapServiceName": "LetGIS_Bezpecnost"
+      },
+      "forwardLabel": "PZTS",
+      "backwardLabel": "Objekty"
+    }
+  ]
+}

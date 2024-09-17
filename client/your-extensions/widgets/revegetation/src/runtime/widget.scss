@@ -1,0 +1,48 @@
+.widget-revegetation {
+    >.card-body {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr;
+        gap: 10px;
+
+        .hsi-feature-table {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+
+    &.table-hidden {
+        .hsi-feature-table {
+            display: none;
+        }
+    }
+}
+
+.revegetation-pasport-modal {
+    .modal-dialog {
+        max-width: 50%;
+
+        .modal-content {
+            height: 75vh;
+
+            .modal-body {
+                overflow: auto;
+    
+                .revegetation-pasport {
+                    height: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: auto repeat(2, 1fr);
+                    gap: 10px;
+                
+                    .hsi-feature-table {
+                        grid-column-start: 1;
+                        grid-column-end: 3;
+                    }
+                }
+            }
+        }
+
+    }
+}

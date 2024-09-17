@@ -1,0 +1,158 @@
+{
+  "groundHeightService": "https://ags.cuzk.cz/arcgis2/rest/services/dmr5g/ImageServer",
+  "obstacleLayers": [
+    {
+      "layerId": 181,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "heightAttribute": "SDEDO.Obstacle.ELEVATION"
+    },
+    {
+      "layerId": 182,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "heightAttribute": "SDEDO.Obstacle.ELEVATION"
+    },
+    {
+      "layerId": 183,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "heightAttribute": "SDEDO.Obstacle.ELEVATION"
+    },
+    {
+      "layerId": 4001,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp20pr0624/ImageServer",
+      "contourLayer": {
+        "url": "https://letgsdams01.esriad.lan/server/rest/services/LK/Prekazky_plochy/MapServer/200",
+        "objectId": 1
+      }
+    },
+    {
+      "layerId": 4002,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp20pr1230/ImageServer",
+      "contourLayer": {
+        "url": "https://letgsdams01.esriad.lan/server/rest/services/LK/Prekazky_plochy/MapServer/200",
+        "objectId": 2
+      }
+    },
+    {
+      "layerId": 4007,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp_vzlet_a/ImageServer"
+    },
+    {
+      "layerId": 4008,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp_vzlet_a/ImageServer"
+    },
+    {
+      "layerId": 4009,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp20vzlet24/ImageServer"
+    },
+    {
+      "layerId": 4010,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp20vzlet30/ImageServer"
+    },
+    {
+      "layerId": 4011,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp20vodkuz/ImageServer"
+    },
+    {
+      "layerId": 4101,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4102,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4103,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4104,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4105,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4106,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4107,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_eTOD/etod/ImageServer"
+    },
+    {
+      "layerId": 4201,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    },
+    {
+      "layerId": 4202,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    },
+    {
+      "layerId": 4203,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    },
+    {
+      "layerId": 4204,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    },
+    {
+      "layerId": 4205,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    },
+    {
+      "layerId": 4206,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    },
+    {
+      "layerId": 4207,
+      "mapName": "LetGISAnalyzaPrekazek",
+      "mapServiceName": "LK/LetGISAnalyzaPrekazek",
+      "identifyService": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_OP/op/ImageServer"
+    }
+  ],
+  "buffer": 50
+}

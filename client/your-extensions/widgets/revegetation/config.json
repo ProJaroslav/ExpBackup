@@ -1,0 +1,25 @@
+{
+    "highlightColor": "rgba(48,189,100,0.46)",
+    "queries": [
+        {
+            "dataSet": "dnt.SDEDO.REK_CELK_HRANICE",
+            "domainAttribute": "REK_NAZEV",
+            "alias": "Celková hranice",
+            "pasportAttributes": ["REK_NAZEV", "PRVEK_SPP"],
+            "sppAttribute": "PRVEK_SPP"
+        },
+        {
+            "dataSet": "dnt.SDEDO.REK_DIL_HRANICE",
+            "domainAttribute": "NAZEV_PLOCHY",
+            "alias": "Dílčí hranice",
+            "pasportAttributes": ["REK_NAZEV", "PRVEK_SPP"],
+            "sppAttribute": "PRVEK_SPP"
+        }
+    ],
+    "searchUrl": "https://sdagsdase106.hsi.lan/server/rest/services/SD_funkce2/MapServer/dynamicLayer/query",
+    "workspaceId": "sdagsddb03",
+    "sumSppAttribute": "PRVEK_SPP",
+    "sumClassName": "dnt.SDEDO.REK_DIL_HRANICE",
+    "sumKindAttribute": "DRUH",
+    "pasportizaceQueryUrl": "https://sdagsdase106.hsi.lan/SdWebService/SdService.svc/rest/GetPasportizaceQueryTable"
+}

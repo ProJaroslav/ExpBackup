@@ -1,0 +1,306 @@
+{
+    "Lite": [
+        {
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto/MapServer",
+            "type": "mapImageLayer",
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "url": "https://letgistest.cah.cz/server/rest/services/BaseMap/Bez_podkladu/MapServer",
+            "type": "mapImageLayer",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/bez_podkladu.jpg",
+            "useToken": false,
+            "title": "Bez podkladu"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "default",
+            "thumbnailUrl": "https://letgistest.cah.cz/LetGISLite/Basemaps_Images/ZM_LetGIS.jpg",
+            "useToken": false,
+            "title": "Základní mapa letiště"
+        }
+    ],
+    "Lite_Cache": [
+        {
+            "url": "https://letgistest.cah.cz/server/rest/services/BaseMap/ZM_cache/MapServer",
+            "type": "mapImageLayer",
+            "useToken": false,
+            "title": "Základní mapa letiště"
+        },
+        {
+            "url": "https://gs-pub.praha.eu/imgs/rest/services/ort/letecke_snimkovani/ImageServer",
+            "type": "ImageryLayer",
+            "useToken": false,
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "default",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/bez_podkladu.jpg",
+            "useToken": false,
+            "title": "Bez Podkladu"
+        }
+    ],
+    "LitePlus": [
+        {
+            "url": "https://gs-pub.praha.eu/imgs/rest/services/ort/letecke_snimkovani/ImageServer",
+            "type": "ImageryLayer",
+            "useToken": false,
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto/MapServer",
+            "type": "mapImageLayer",
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "default",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/bez_podkladu.jpg",
+            "useToken": false,
+            "title": "Bez Podkladu"
+        }
+    ],
+    "Mobile": [
+        {
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto/MapServer",
+            "type": "mapImageLayer",
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "url": "https://letgistest.cah.cz/server/rest/services/BaseMap/Bez_podkladu/MapServer",
+            "type": "mapImageLayer",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/bez_podkladu.jpg",
+            "useToken": false,
+            "title": "Bez podkladu"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "default",
+            "thumbnailUrl": "https://letgistest.cah.cz/LetGISLite/Basemaps_Images/ZM_LetGIS.jpg",
+            "useToken": false,
+            "title": "Základní mapa letiště"
+        }
+    ],
+    "Stavby": [
+        {
+            "type": "default",
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://letgistest.cah.cz/server/rest/services/BaseMap/ZM/MapServer",
+            "thumbnailUrl": "https://letgistest.cah.cz/LetGISLite/Basemaps_Images/ZM_LetGIS.jpg",
+            "useToken": false,
+            "title": "Základní mapa letiště"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://gs-pub.praha.eu/arcgis/rest/services/pup/uzemni_plan_platny/MapServer",
+            "title": "Územní plán (ArcGIS)"
+        }
+    ],
+    "Prekazky": [
+        {
+            "type": "default",
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://letgistest.cah.cz/server/rest/services/BaseMap/ZM/MapServer",
+            "thumbnailUrl": "https://letgistest.cah.cz/LetGISLite/Basemaps_Images/ZM_LetGIS.jpg",
+            "title": "Základní mapa letiště"
+        }
+    ],
+    "Zasoba": [
+        {
+            "url": "https://letgistest.cah.cz/server/rest/services/BaseMap/ZM_cache/MapServer",
+            "type": "mapImageLayer",
+            "useToken": false,
+            "title": "Základní mapa letiště"
+        },
+        {
+            "url": "https://gs-pub.praha.eu/imgs/rest/services/ort/letecke_snimkovani/ImageServer",
+            "type": "ImageryLayer",
+            "useToken": false,
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto/MapServer",
+            "type": "mapImageLayer",
+            "title": "Ortofoto",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ZM_CUZK.jpg"
+        },
+        {
+            "type": "default",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/bez_podkladu.jpg",
+            "useToken": false,
+            "title": "Bez Podkladu"
+        },
+        {
+            "type": "WMS",
+            "url": "http://ags.cuzk.cz/arcgis/services/zm/MapServer/WMSServer",
+            "title": "Základní mapa ČR (WMS)"
+        },
+        {
+            "type": "WMS",
+            "url": "https://gs-pub.praha.eu/arcgis/services/pup/uzemni_plan_platny/MapServer/WmsServer",
+            "title": "LetGIS (WMS)",
+            "spatialReference": {
+                "wkid": 5514
+            }
+        },
+        {
+            "type": "WMS",
+            "url": "http://services.cuzk.cz/wms/local-km-wms.asp",
+            "title": "KN (WMS)",
+            "spatialReference": {
+                "wkid": 5514
+            }
+        },
+        {
+            "type": "WMTS",
+            "url": "https://ags.cuzk.cz/arcgis/rest/services/zm/MapServer/WMTS",
+            "title": "Základní mapa ČR (WMTS)"
+        }
+    ],
+    "kutik_test": [
+        {
+            "url": "https://letgsdams01.esriad.lan/server/rest/services/Basemap/ZM/MapServer",
+            "type": "mapImageLayer",
+            "useToken": true,
+            "title": "Základní mapa letiště"
+        },
+        {
+            "type": "default",
+            "thumbnailUrl": "https://letgis.cah.cz/letgislite/Basemaps_Images/bez_podkladu.jpg",
+            "useToken": true,
+            "title": "Bez Podkladu"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://ags.cuzk.cz/arcgis/rest/services/zm/MapServer",
+            "title": "Základní mapa ČR (mapImageLayer)",
+            "thumbnailUrl": "https://ags.cuzk.cz/arcgis/rest/services/zm/MapServer/info/thumbnail"
+        },
+        {
+            "url": "https://gs-pub.praha.eu/imgs/rest/services/ort/letecke_snimkovani/ImageServer",
+            "type": "ImageryLayer",
+            "useToken": false,
+            "title": "Ortofoto (ImageryLayer)",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "url": "https://ags.cuzk.cz/ArcGIS/rest/services/ortofoto/MapServer",
+            "type": "mapImageLayer",
+            "title": "Ortofoto (mapImageLayer)",
+            "thumbnailUrl": "https://letgistest.cah.cz/letgislite/Basemaps_Images/ortofoto_cuzk.jpg"
+        },
+        {
+            "type": "portalItem",
+            "id": "060c2dad22154af49eb453e1bb201558",
+            "title": "Základní mapa ČR (portal)",
+            "thumbnailUrl": "https://ags.cuzk.cz/arcgis/rest/services/zm/MapServer/info/thumbnail"
+        },
+        {
+            "type": "portalItem",
+            "id": "d31ee29ea6d046b7b896f3b9af1f9f29",
+            "title": "Ortofoto (portal)"
+        },
+        {
+            "type": "ImageryLayer",
+            "url": "https://letgsdams01.esriad.lan/server/rest/services/Elevation_PP/pp20pr0624/ImageServer",
+            "title": "Imagery",
+            "thumbnailUrl": "https://ags.cuzk.cz/arcgis/rest/services/ortofoto/MapServer/info/thumbnail"
+        },
+        {
+            "type": "WMS",
+            "url": "http://ags.cuzk.cz/arcgis/services/zm/MapServer/WMSServer",
+            "title": "Základní mapa ČR (WMS)"
+        },
+        {
+            "type": "WMS",
+            "url": "https://gs-pub.praha.eu/arcgis/services/pup/uzemni_plan_platny/MapServer/WmsServer",
+            "title": "Územní plán (WMS)"
+        },
+        {
+            "type": "WMTS",
+            "url": "https://gs-pub.praha.eu/arcgis/services/pup/uzemni_plan_platny/MapServer/WMTS",
+            "title": "Územní plán (WMTS)"
+        },
+        {
+            "type": "WMTS",
+            "url": "https://ags.cuzk.cz/arcgis/rest/services/zm/MapServer/WMTS",
+            "title": "Základní mapa ČR (WMTS)"
+        },
+        {
+            "type": "mapImageLayer",
+            "url": "https://gs-pub.praha.eu/arcgis/rest/services/pup/uzemni_plan_platny/MapServer",
+            "title": "Územní plán (ArcGIS)"
+        },
+        {
+            "type": "WMS",
+            "url": "http://services.cuzk.cz/wms/local-km-wms.asp",
+            "title": "KN (WMS)",
+            "spatialReference": {
+                "wkid": 5514
+            }
+        },
+        {
+            "type": "portalItem",
+            "title": "Územní plán (ArcGIS / portal)",
+            "id": "2cf24fff0adb4a72b21be0b4adc5a9b4"
+        },
+        {
+            "type": "portalItem",
+            "title": "Letecké Snímkování (ArcGIS / portal)",
+            "id": "be24f2fda4cf44c1ac626b79623653f2"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+{
+    "queryWhiteList": ["QueryReportRejstrikParcel", "QueryReportRejstrikBudov", "QueryReportRocniInventura", "QueryReportPrehledProDane", "QueryReportPrehledProInventury"],
+    "requiredRoles": []
+}

@@ -1,0 +1,63 @@
+.widget-land-table {
+    $gap: 10px;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select-query {
+        gap: $gap;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        > span {
+            text-wrap: nowrap;
+        }
+    }
+
+    .query-params {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: start;
+        align-items: center;
+        gap: $gap;
+        margin-top: $gap;
+
+        .required {
+            font-weight: bold;
+        }
+    }
+
+    .hsi-feature-table {
+        flex: 1;
+    }
+    
+    .table-content {
+        display: contents;
+    }
+}
+
+.widget-land-hidden-table {
+    .hsi-feature-table {
+        display: none;
+    }
+}
+
+.land-table-table-modal {
+    .modal-dialog {
+        max-width: 75%;
+        .modal-content {
+            height: 50vh;
+            .modal-body {
+                display: flex;
+                flex-direction: column;
+                .hsi-feature-table {
+                    flex: 1;
+                }
+            }
+
+        }
+    }
+}

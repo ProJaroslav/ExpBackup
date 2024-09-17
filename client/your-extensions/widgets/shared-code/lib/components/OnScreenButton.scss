@@ -1,0 +1,11 @@
+.hsi-onscreen-button.esri-widget--button.exbmap-ui-tool-shell.disabled {
+    cursor: inherit;
+    background-color: var(--secondary-200);
+    color: #8b8b8b;
+
+    &:hover {
+        cursor: inherit;
+        background-color: var(--secondary-200);
+        color: #8b8b8b;
+    }
+}

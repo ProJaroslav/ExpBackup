@@ -1,0 +1,62 @@
+.widget-TableOfContents {
+    height: 100%;
+    user-select: none;
+    
+    .widget-body {
+        overflow: auto;
+        padding: 1.25rem 0.25rem;
+
+        .hsi-tree {
+            list-style: none;
+            padding-left: 21px;
+    
+            .hsi-tree-item {
+                text-decoration: none;
+
+                .hsi-tree-item-content {
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+    
+                    .hsi-tree-item-title {
+                        flex: 1;
+                        &.visible {
+                            color: var(--dark-900);
+                        }
+                        &.not-visible {
+                            color: var(--secondary-400);
+                        }
+                        
+                    }
+    
+                    .hsi-tree-expander {
+                        visibility: hidden;
+                    }
+                    
+                    &.expansible {
+                        .hsi-tree-item-title:hover {
+                            text-decoration: underline;
+                        }
+    
+                        .hsi-tree-expander {
+                            visibility: visible;
+                            &:hover {
+                                color: blue;
+                            }
+                        }
+                    }
+                }
+
+                .hsi-tree-item-legend {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+
+                    
+                    label {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

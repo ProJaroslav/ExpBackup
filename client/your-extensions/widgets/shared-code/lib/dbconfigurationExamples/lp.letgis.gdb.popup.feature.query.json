@@ -1,0 +1,208 @@
+{
+    "default": [
+        {
+            "originLayer": {
+                "layerId": 2,
+                "mapName": "Map",
+                "mapServiceName": "LK/LK"
+            },
+            "destinationLayer": {
+                "layerId": 1003,
+                "mapName": "Map",
+                "mapServiceName": "LK/LK"
+            },
+            "title": "Zaměstnanci v místnosti",
+            "originLayerAttributes": "FTID",
+            "destinationLayerAttributes": "FTID_MISTNOST"
+        },
+        {
+            "originLayer": {
+                "layerId": 1003,
+                "mapName": "Map",
+                "mapServiceName": "LK/LK"
+            },
+            "destinationLayer": {
+                "layerId": 2,
+                "mapName": "Map",
+                "mapServiceName": "LK/LK"
+            },
+            "title": "Místnost",
+            "originLayerAttributes": "FTID_MISTNOST",
+            "destinationLayerAttributes": "FTID"
+        },
+        {
+            "originLayer": {
+                "mapName": "MST_Popisky",
+                "mapServiceName": "LK/MST_Popisky",
+                "layerId": 31
+            },
+            "destinationLayer": {
+                "layerId": 1003,
+                "mapName": "LetGISLite",
+                "mapServiceName": "LK/LetGISLite"
+            },
+            "title": "Zaměstnanci v místnosti",
+            "originLayerAttributes": "FTID",
+            "destinationLayerAttributes": "FTID_MISTNOST"
+        },
+        {
+            "originLayer": {
+                "layerId": 1003,
+                "mapName": "LetGISLite",
+                "mapServiceName": "LK/LetGISLite"
+            },
+            "destinationLayer": {
+                "mapName": "MST_Popisky",
+                "mapServiceName": "LK/MST_Popisky",
+                "layerId": 31
+            },
+            "title": "Místnost",
+            "originLayerAttributes": "FTID_MISTNOST",
+            "destinationLayerAttributes": "FTID"
+        },
+        {
+            "originLayer": {
+                "layerId": 2,
+                "mapName": "LitePlus",
+                "mapServiceName": "LK/LitePlus"
+            },
+            "destinationLayer": {
+                "layerId": 1003,
+                "mapName": "LitePlus",
+                "mapServiceName": "LK/LitePlus"
+            },
+            "title": "Zaměstnanci v místnosti",
+            "originLayerAttributes": "FTID",
+            "destinationLayerAttributes": "FTID_MISTNOST"
+        },
+        {
+            "originLayer": {
+                "layerId": 1003,
+                "mapName": "LitePlus",
+                "mapServiceName": "LK/LitePlus"
+            },
+            "destinationLayer": {
+                "layerId": 2,
+                "mapName": "LitePlus",
+                "mapServiceName": "LK/LitePlus"
+            },
+            "title": "Místnost",
+            "originLayerAttributes": "FTID_MISTNOST",
+            "destinationLayerAttributes": "FTID"
+        },
+        {
+            "originLayer": {
+                "layerId": 2,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "destinationLayer": {
+                "layerId": 1003,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "title": "Zaměstnanci v místnosti",
+            "originLayerAttributes": "FTID",
+            "destinationLayerAttributes": "FTID_MISTNOST"
+        },
+        {
+            "originLayer": {
+                "layerId": 1003,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "destinationLayer": {
+                "layerId": 2,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "title": "Místnost",
+            "originLayerAttributes": "FTID_MISTNOST",
+            "destinationLayerAttributes": "FTID"
+        },
+        {
+            "originLayer": {
+                "layerId": 124,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "destinationLayer": {
+                "layerId": 1050,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "title": "Kabely",
+            "relationshipClassId": "1ACAF05B-EB87-4D99-86DE-4DDE200045EB"
+        },
+        {
+            "originLayer": {
+                "layerId": 1050,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "destinationLayer": {
+                "layerId": 124,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "title": "Trasy",
+            "relationshipClassId": "1ACAF05B-EB87-4D99-86DE-4DDE200045EB"
+        },
+        {
+            "originLayer": {
+                "layerId": 127,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "destinationLayer": {
+                "layerId": 1052,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "title": "Kabely",
+            "relationshipClassId": "E95FBC69-AEAE-4266-A519-693856A75226"
+        },
+        {
+            "originLayer": {
+                "layerId": 1052,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "destinationLayer": {
+                "layerId": 127,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+            },
+            "title": "Trasy",
+            "relationshipClassId": "E95FBC69-AEAE-4266-A519-693856A75226"
+        },
+        {
+            "originLayer": {
+                "layerId": 181,
+                "mapName": "LetGISAnalyzaPrekazek",
+                "mapServiceName": "LK/LetGISAnalyzaPrekazek"
+            },
+            "destinationLayer": {
+                "layerId": 1058,
+                "mapName": "LetGISAnalyzaPrekazek",
+                "mapServiceName": "LK/LetGISAnalyzaPrekazek"
+            },
+            "title": "Obstacle",
+            "relationshipClassId": "A2CB2DD8-C10F-4700-9ACD-857D8EEF40EE"
+        },
+        {
+            "originLayer": {
+                "layerId": 182,
+                "mapName": "LetGISAnalyzaPrekazek",
+                "mapServiceName": "LK/LetGISAnalyzaPrekazek"
+            },
+            "destinationLayer": {
+                "layerId": 1058,
+                "mapName": "LetGISAnalyzaPrekazek",
+                "mapServiceName": "LK/LetGISAnalyzaPrekazek"
+            },
+            "title": "Obstacle",
+            "relationshipClassId": "A2CB2DD8-C10F-4700-9ACD-857D8EECCCEE"
+        }
+    ]
+}

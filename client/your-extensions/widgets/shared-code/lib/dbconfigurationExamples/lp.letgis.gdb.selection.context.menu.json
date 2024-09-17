@@ -1,0 +1,341 @@
+{
+  "layers": [
+    {
+      "mapName": "Map",
+      "mapServiceName": "LK/LK",
+      "sublayers": [
+        {
+          "layerId": 1,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "68552EDC-F849-46F5-B093-C5743E1E52C5"
+              ]
+            },
+            {
+              "key": "detach-feature",
+              "enabled": true
+            },
+            {
+              "key": "select-relations",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "layerId": 2,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "1C4A490D-4D63-4E65-BD2A-CF8E27FCFFFF"
+              ]
+            }
+          ]
+        },
+        {
+          "layerId": 1004,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "68552EDC-F849-46F5-B093-C5743E1E52C5",
+                "1C4A490D-4D63-4E65-BD2A-CF8E27FCFFFF"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapName": "LitePlus",
+      "mapServiceName": "LK/LitePlus",
+      "sublayers": [
+        {
+          "layerId": 1,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "84A2FFC5-D6C4-4624-A73F-0EE2228C9FE9"
+              ]
+            },
+            {
+              "key": "detach-feature",
+              "enabled": true
+            },
+            {
+              "key": "select-relations",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "layerId": 19,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "1C4A490D-4D63-4E65-BD2A-CF8E27FCF5AB"
+              ]
+            }
+          ]
+        },
+        {
+          "layerId": 1004,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "84A2FFC5-D6C4-4624-A73F-0EE2228C9FE9",
+                "1C4A490D-4D63-4E65-BD2A-CF8E27FCF5AB"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapName": "LetGIS_Mapa",
+      "mapServiceName": "LK/LetGIS_Mapa",
+      "sublayers": [
+        {
+          "layerId": 1,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "9F4A09AF-E031-4720-8051-6A49B7874569"
+              ]
+            },
+            {
+              "key": "detach-feature",
+              "enabled": true
+            },
+            {
+              "key": "select-relations",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "layerId": 12,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "83CE7EAB-2C37-4F43-A255-8FA117CCDC03"
+              ]
+            }
+          ]
+        },
+        {
+          "layerId": 1004,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "9F4A09AF-E031-4720-8051-6A49B7874569",
+                "83CE7EAB-2C37-4F43-A255-8FA117CCDC03"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapName": "LetGISTech",
+      "mapServiceName": "LK/LetGISTech",
+      "sublayers": [
+        {
+          "layerId": 1,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "F10ADA21-7255-8209-5D21-DB2D2EA10E86"
+              ]
+            },
+            {
+              "key": "detach-feature",
+              "enabled": true
+            },
+            {
+              "key": "select-relations",
+              "enabled": true
+            }
+          ]
+        },
+        {
+          "layerId": 19,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "2FFB827E-78B4-A6A3-46E1-0CAF77C52594"
+              ]
+            }
+          ]
+        },
+        {
+          "layerId": 1004,
+          "actions": [
+            {
+              "key": "create-relation",
+              "enabled": true,
+              "allowedRelations": [
+                "F10ADA21-7255-8209-5D21-DB2D2EA10E86",
+                "2FFB827E-78B4-A6A3-46E1-0CAF77C52594"
+              ]
+            }
+          ]
+        },
+        {
+          "layerId": 1055,
+          "actions": [
+            {
+              "key": "generate-protocol",
+              "reportServiceUrl": "https://letgsdams01.esriad.lan/server/rest/services/testovaci/Export_Report_Test/GPServer/Create%20Report",
+              "enabled": true,
+              "fileNameTemplate": "{C_TYP}_{CISLO}",
+              "reportTable": {
+                "layerId": 1054,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+              },
+              "fields": [
+                {
+                  "fieldName": "FTID_KLICE_VLOZKA",
+                  "relateAttribute": "FTID",
+                  "editable": false
+                },
+                {
+                  "fieldName": "C_TYP",
+                  "required": true,
+                  "editable": true,
+                  "reportOptions": [
+                    {
+                      "value": 1,
+                      "reportName": "Report"
+                    },
+                    {
+                      "value": 0,
+                      "reportName": "A4 Portrait"
+                    }
+                  ]
+                },
+                {
+                  "fieldName": "POCET",
+                  "required": true,
+                  "editable": true
+                },
+                {
+                  "fieldName": "C_PERSONAL",
+                  "required": false,
+                  "editable": false,
+                  "currentUser": true,
+                  "loginTableDefinition": {
+                    "layerId": 1065,
+                    "mapName": "LetGISTech",
+                    "mapServiceName": "LK/LetGISTech",
+                    "userNameAttribute": "SAM_NAME",
+                    "userIdAttribute": "ID"
+                  }
+                },
+                {
+                  "fieldName": "ZAKAZNIK_JMENO",
+                  "required": true,
+                  "editable": true
+                },
+                {
+                  "fieldName": "ZAKAZNIK_PRIJMENI",
+                  "required": true,
+                  "editable": true
+                },
+                {
+                  "fieldName": "ZAKAZNIK_FIRMA",
+                  "required": true,
+                  "editable": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layerId": 1050,
+          "actions": [
+            {
+              "key": "route-highlight",
+              "enabled": true,
+              "cableAttribute": "FTID",
+              "highVoltageLayer": {
+                "layerId": 1059,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+              },
+              "lowVoltageLayer": {
+                "layerId": 124,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+              },
+              "lowVoltageAttribute": "FTID",
+              "highVoltageCableAttribute": "FTID_KABELY",
+              "highVoltageSearchAttribute": "FTID_TRASY"
+            }
+          ]
+        },
+        {
+          "layerId": 1052,
+          "actions": [
+            {
+              "key": "route-highlight",
+              "enabled": true,
+              "cableAttribute": "FTID",
+              "highVoltageLayer": {
+                "layerId": 1060,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+              },
+              "lowVoltageLayer": {
+                "layerId": 127,
+                "mapName": "LetGISTech",
+                "mapServiceName": "LK/LetGISTech"
+              },
+              "lowVoltageAttribute": "FTID",
+              "highVoltageCableAttribute": "FTID_KABELY",
+              "highVoltageSearchAttribute": "FTID_TRASY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mapName": "LetGIS_Bezpecnost",
+      "mapServiceName": "LetGIS_Bezpecnost",
+      "sublayers": [
+        {
+          "layerId": 173,
+          "actions": [
+            {
+              "key": "review-date",
+              "enabled": true,
+              "attributeName": "KONTROLA"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

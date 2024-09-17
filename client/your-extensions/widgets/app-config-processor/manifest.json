@@ -1,0 +1,30 @@
+{
+    "name": "app-config-processor",
+    "widgetType": "NORMAL",
+    "type": "widget",
+    "label": "Globální nastavení",
+    "version": "1.14.0",
+    "exbVersion": "1.14.0",
+    "author": "Matěj Kutík",
+    "description": "Globální nastavení včetně změny AppConfigu. Důvod widgetu je ten, že se zavolá pouze jeden extension point APP_CONFIG_PROCESSOR napříč celou aplikací",
+    "copyright": "HSI, s.r.o.",
+    "translatedLocales": [
+        "cs"
+    ],
+    "defaultSize": {
+        "autoHeight": true,
+        "autoWidth": true
+    },
+    "extensions": [
+        {
+            "name": "Config Processor",
+            "point": "APP_CONFIG_PROCESSOR",
+            "uri": "extensions/appConfigProcessors/app-config-processor"
+        },
+        {
+            "name": "Globbal Settings",
+            "point": "CONTEXT_TOOL",
+            "uri": "extensions/reduxStores/globalSettings"
+        }
+  ]
+}

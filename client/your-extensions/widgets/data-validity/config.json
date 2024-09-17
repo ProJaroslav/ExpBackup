@@ -1,0 +1,7 @@
+{
+    "getDataValidityUrl": "https://sdagsdase106.hsi.lan/SdWebService/SdService.svc/rest/GetDataValidity",
+    "setDataValidityUrl": "https://sdagsdase106.hsi.lan/SdWebService/SdService.svc/rest/SetDataValidity",
+    "editRoles": ["PlatnostDat"],
+    "textColor": "var(--light)"
+
+}

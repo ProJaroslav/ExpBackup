@@ -1,0 +1,209 @@
+.widget-SelectionResult {
+    user-select: none;
+    height: 100%;
+    width: 100%;
+
+    
+    >.card-body {
+        height: 100%;
+        $defaultBottomSize: 70%;
+        .resize-wrapper {
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 30% $defaultBottomSize;
+            position: relative;
+    
+            
+            .size-handler {
+                position: absolute;
+                height: 10px;
+                bottom: $defaultBottomSize;
+                left: 0;
+                right: 0;
+                background: transparent;
+                user-select: element;
+                cursor: n-resize;
+                transform: translateY(50%);
+            }
+        }
+    }
+
+    .selection-tree {
+        overflow: auto;
+
+        >.card-body {
+            overflow: auto;
+            padding: 0;
+        }
+
+        .children-loader {
+            animation: loadingChildrenAnimation 2s linear infinite;
+        }
+
+        .selection-tree-item {
+            user-select: none;
+            
+            .selection-tree-item-content {
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                cursor: auto;
+                position: relative;
+                padding: 2px 0;
+
+                @for $index from 0 to 20 {
+                    &.level-#{$index} {
+                        padding-left: ($index * 21) + 10px;
+                    }
+                }
+                
+                &.selected {
+                    background-color: var(--primary-500);
+                    color: var(--white);
+                }
+
+                &:hover {
+                    .selection-tree-item-title {
+                        text-decoration: underline;
+                    }
+                }
+
+                .hsi-tree-expander.hidden {
+                    visibility: hidden;
+                }
+
+                &.pending .selection-tree-item-loader {
+                    display: block;
+                }
+
+                .selection-tree-item-loader {
+                    display: none;
+                    height: 1px;
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0;
+                    left: 0;
+                    overflow: hidden;
+                    
+                    div {
+                        background-color: var(--primary-900);
+                        height: 100%;
+                        animation: loadingAnimation 2s infinite linear;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-pane {
+        >.card-body {
+            height: 100%;
+            .bottom-pane-tabs {
+                height: 100%;
+
+                
+                .tab-content {
+                    overflow: hidden;
+                    .tab-pane {
+                        width: 100%;
+                        .tab-card {
+                            border-top: none;
+                            height: 100%;
+                
+                            >.card-body {
+                                height: 100%;
+                                overflow: hidden;
+                                padding: .5rem;
+
+                                &.geometry-wrapper {
+                                    display: flex;
+                                    flex-direction: column;
+                                    height: 100%;
+                                    
+                                    .spatial-reference-select-label {
+                                        display: flex;
+                                        gap: .5rem;
+                                        white-space: nowrap;
+
+                                        .spatial-reference-select {
+                                            flex: 1;
+                                        }
+                                    }
+
+                                    .hsi-table {
+                                        flex: 1;
+                                    }
+                                }
+
+                                &.document-wrapper {
+                                    overflow: auto;
+
+                                    .attachment-menu {
+                                        position: absolute;
+                                        right: 10px;
+                                        top: 50%;
+                                        transform: translateY(-50%);
+
+                                        svg {
+                                            margin: 0;
+                                        }
+                                    }
+                                }
+
+                                &.history-wrapper {
+                                    white-space: nowrap;
+                                }
+                            }
+
+                            
+                            .feature-action-footer{
+                                display: flex;
+                                gap: 10px;
+                                flex-wrap: wrap;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .date-picker-size-sm {
+        $smSize: 26px; 
+        height: $smSize;
+        .input-group-append {
+            height: $smSize;
+            .date-picker-calendar-icon {
+                padding: 0 0.25rem !important;
+            }
+        }
+        
+        .jimu-date-picker-input {
+            height: $smSize;
+        }
+    }
+
+    .load-relation-class-error-alert {
+        span {
+            min-width: 0;
+            min-height: 0;
+
+            svg {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+
+    @keyframes loadingAnimation {
+        0% { width: 0%; }
+        20% { width: 0%; }
+        100% { width: 100%; }
+    }
+
+    @keyframes loadingChildrenAnimation {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+}

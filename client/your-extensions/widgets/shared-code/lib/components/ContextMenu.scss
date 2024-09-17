@@ -1,0 +1,10 @@
+.hsi-context-menu-item {
+    color: var(--dark-900);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    &.hovered {
+        color: var(--primary-500);
+    }
+}

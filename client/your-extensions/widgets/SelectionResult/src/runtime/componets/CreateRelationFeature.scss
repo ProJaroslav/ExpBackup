@@ -1,0 +1,13 @@
+.inline-label {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    white-space: nowrap;
+    user-select: none;
+    align-items: center;
+
+    .inline-label-selct {
+        flex: 1;
+    }
+}

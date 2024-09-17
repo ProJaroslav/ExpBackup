@@ -1,0 +1,6 @@
+{
+    "queryWhiteList": ["QueryForParcelaByNum", "QueryForParcelaByLV", "QueryForParcelaByOwnerOrg", "QueryForParcelaByOwnerPerson", "QueryForBudovaByAddress", "QueryForBudovaByParcela", "QueryForBudovaByLV", "QueryForBudovaByOwnerOrg", "QueryForBudovaByOwnerPerson", "QueryForPronajPoz", "QueryForVecneBremeno"],
+    "parcelCuzkUrl": "https://nahlizenidokn.cuzk.cz/ZobrazObjekt.aspx",
+    "buildingCuzkUrl": "https://nahlizenidokn.cuzk.cz/MapaIdentifikace.aspx",
+    "highlightColor": "rgba(48,189,100,0.46)"
+}

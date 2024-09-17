@@ -1,0 +1,11 @@
+{
+    "displayGeometryTab": true,
+    "editGeometryFromAttributeTab": false,
+    "useTextInputs": false,
+    "forbidExpandLayerOnRightClick": false,
+    "forbidtPopupFormat": false,
+    "forbidEnableRelations": false,
+    "forbidHistoryTab": false,
+    "forbidDocumentsTab": false,
+    "forbidActionLinks": false
+}

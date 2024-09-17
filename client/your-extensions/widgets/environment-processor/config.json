@@ -1,0 +1,51 @@
+{
+    "scales": [
+        {
+            "id": "faec25de_a0ab_549e_d9d1_d6503eadee50",
+            "label": "RM 1:500"
+        },
+        {
+            "id": "4d000201_0b61_e557_c0ca_715abb8f555a",
+            "label": "RM 1:1000"
+        },
+        {
+            "id": "a5d91e34_ebe9_ebaf_e087_ae03acaa8919",
+            "label": "RM 1:2000"
+        },
+        {
+            "id": "30131507_9c98_943b_7e64_5fd47a2fc9dd",
+            "label": "RM 1:5000"
+        },
+        {
+            "id": "f3fbf1f0_055d_0012_91b0_e01d3495749e",
+            "label": ""
+        }
+      ],
+    "environments": [
+        {
+            "label": "GIS",
+            "hiddenWidgets": [],
+            "scales": [
+                {
+                    "id": "faec25de_a0ab_549e_d9d1_d6503eadee50",
+                    "itemId": "c849342da4204570a70ef7edb7d2545f"
+                },
+                {
+                    "id": "4d000201_0b61_e557_c0ca_715abb8f555a",
+                    "itemId": "36066a7ea0d64608b6a0672c9a8ec84a"
+                },
+                {
+                    "id": "a5d91e34_ebe9_ebaf_e087_ae03acaa8919",
+                    "itemId": "8df2d614554045a8b7363e5375b5d568"
+                },
+                {
+                    "id": "30131507_9c98_943b_7e64_5fd47a2fc9dd",
+                    "itemId": "94b771f621c44b87921c9905696cb9ce"
+                }
+            ]
+        }
+    ],
+    "preserveExtent": true,
+    "validateEnvironment": true,
+    "processDefaultEnvironment": true
+}

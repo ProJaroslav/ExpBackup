@@ -1,0 +1,9 @@
+{
+    "highlightColor": "rgba(48,189,100,0.46)",
+    "reportTable": "dnt.sdedo.V_SPRAVA_MAJEKTU_SESTAVA",
+    "sapTable": "dnt.SDEDO.KOMUNIK_VOZOVKA",
+    "differenceTable": "dnt.sdedo.V_SPRAVA_MAJEKTU_ROZDIL",
+    "sapField": "SAP_ORGANIZACE",
+    "dynamicServiceUrl": "https://sdagsdase106.hsi.lan/server/rest/services/SD_funkce2/MapServer/dynamicLayer/query",
+    "workspaceId": "sdagsddb03"
+}

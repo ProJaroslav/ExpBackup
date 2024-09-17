@@ -1,0 +1,30 @@
+.widget-rent-table {
+    >.card-body {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, auto) 1fr;
+        grid-template-rows: repeat(5, auto) 1fr;
+        gap: 10px;
+        > label {
+            grid-column: 1;
+            margin: 0px;
+            align-self: center;
+        }
+
+        > .jimu-input {
+            grid-column: 2;
+        }
+
+        .hsi-feature-table {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    }
+}
+
+.rent-table-edit-renter-modal {
+    display: flex;
+    label {
+        flex: 1;
+    }
+}

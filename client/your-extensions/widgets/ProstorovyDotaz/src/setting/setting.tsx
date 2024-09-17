@@ -1,0 +1,9 @@
+import { React } from "jimu-core";
+import { AllWidgetSettingProps } from "jimu-for-builder";
+import { WidgetSettingWrapper } from "widgets/shared-code/components";
+
+function Setting({  }: AllWidgetSettingProps<{}>) {
+    return <></>;
+}
+
+export default WidgetSettingWrapper(Setting); 

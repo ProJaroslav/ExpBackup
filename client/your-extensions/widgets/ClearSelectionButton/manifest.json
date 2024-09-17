@@ -1,0 +1,34 @@
+{
+    "name": "ClearSelectionButton",
+    "label": "Smazat výběr",
+    "widgetType": "NORMAL",
+    "type": "widget",
+    "version": "1.15.0",
+    "exbVersion": "1.15.0",
+    "author": "Matěj Kutík",
+    "description": "Tlačítko pro vymazání výběru",
+    "copyright": "HSI, s.r.o.",
+    "publishMessages": [],
+    "messageActions": [],
+    "extensions": [{
+        "name": "Selection store",
+        "point": "REDUX_STORE",
+        "uri": "extensions/reduxStores/selection-store"
+    }, {
+        "name": "First Render Handler store",
+        "point": "REDUX_STORE",
+        "uri": "extensions/reduxStores/first-render-handler-store"
+    }, {
+        "name": "Globbal Settings",
+        "point": "CONTEXT_TOOL",
+        "uri": "extensions/reduxStores/globalSettings"
+    }],
+    "defaultSize": {
+        "autoHeight": true,
+        "autoWidth": true
+    },
+    "dataActions": [],
+    "translatedLocales": [
+        "cs"
+    ]
+  }

@@ -1,0 +1,44 @@
+.widget-queries-table {
+    >.card-body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .query-select {
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+
+        .error-content {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .conditions-creator {
+        display: flex;
+        justify-content: end;
+    }
+
+    .loading-button {
+        display: flex;
+        .jimu-loading {
+            position: relative;
+            align-self: end;
+            margin-right: 5px;
+        }
+    }
+
+    .hsi-feature-table {
+        flex: 1;
+    }
+}
+
+.queries-table-sql-expression-builder {
+    .modal-dialog {
+        max-width: 50%;
+    }
+}

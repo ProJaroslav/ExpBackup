@@ -1,0 +1,32 @@
+.hsiLoadingBar {
+    overflow: visible;
+    position: relative;
+    height: 0;
+    width: 100%;
+
+    > div {
+        height: 2px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        overflow: hidden;
+
+        &::after {
+            content: " ";
+            display: inline-block;
+            height: 100%;
+            width: 25%;
+            position: absolute;
+            top: 0px;
+            background-color: var(--primary);
+            animation: 2.6s linear 0s infinite normal none running bar;
+        }
+    }
+
+
+    @keyframes bar {
+        from { left: -100%; }
+        to { left: 100%; }
+    }
+}

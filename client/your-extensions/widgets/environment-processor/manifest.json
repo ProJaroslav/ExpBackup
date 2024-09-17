@@ -1,0 +1,35 @@
+{
+    "name": "environment-processor",
+    "widgetType": "NORMAL",
+    "type": "widget",
+    "label": "Volba prostředí",
+    "version": "1.14.0",
+    "exbVersion": "1.14.0",
+    "author": "Matěj Kutík",
+    "description": "Mění dostupnost widgetů a DataSource mapového widgetu na základě URL parametrů. Umožnuje změnit prostředí.",
+    "copyright": "HSI, s.r.o.",
+    "translatedLocales": [
+        "cs"
+    ],
+    "defaultSize": {
+        "autoHeight": true,
+        "autoWidth": true
+    },
+    "extensions": [
+        {
+            "name": "Notification store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/notification-store"
+        },
+        {
+            "name": "First Render Handler store",
+            "point": "REDUX_STORE",
+            "uri": "extensions/reduxStores/first-render-handler-store"
+        },
+        {
+            "name": "Globbal Settings",
+            "point": "CONTEXT_TOOL",
+            "uri": "extensions/reduxStores/globalSettings"
+        }
+  ]
+}
